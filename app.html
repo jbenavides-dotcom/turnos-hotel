@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Turnos · Hotel La Palma y El Tucán</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --forest:#1f3a2e; --forest-dark:#122218; --forest-light:#2d5340;
+    --moss:#4a6b5c; --sage:#b8c9ba; --cream:#f5f0e6; --paper:#fbf8f1;
+    --gold:#c9a961; --gold-soft:#e8d9a8; --rose:#f27b9a; --rose-dark:#e85d80;
+    --ink:#1a1a1a; --ink-soft:#4a4a4a;
+    --manana:#e7efe6; --manana-b:#2d5340;
+    --tarde:#f6ecd4; --tarde-b:#8a6d2f;
+    --descanso:#eceae1; --descanso-b:#7d8a7f;
+    --vac:#e9e3f1; --vac-b:#6a5a86;
+    --custom:#eaf0ee; --custom-b:#2d5340;
+    --rojo:var(--rose-dark); --ambar:var(--gold); --verde:var(--forest-light);
+    --serif:'Baskervville',Georgia,serif;
+    --sans:'Montserrat',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    --shadow-soft:0 12px 40px -16px rgba(31,58,46,.18);
+    --shadow-pop:0 18px 50px -12px rgba(31,58,46,.35);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:var(--sans);background:var(--cream);color:var(--ink);
+    padding:26px 22px;line-height:1.45;
+    background-image:radial-gradient(circle at 12% -10%, rgba(201,169,97,.10), transparent 42%)}
+  .wrap{max-width:1240px;margin:0 auto}
+  h1{font-family:var(--serif);font-weight:400;font-size:1.9rem;margin:0 0 2px;
+    color:var(--forest-dark);letter-spacing:.01em}
+  h1 .amp{color:var(--rose);font-style:italic}
+  .sub{color:var(--ink-soft);font-size:.9rem;margin:0 0 18px}
+  .card{background:var(--paper);border:1px solid #e7e1d2;border-radius:26px;
+    padding:18px 20px;margin-bottom:18px;box-shadow:var(--shadow-soft)}
+  .bar{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+  .bar .grow{flex:1}
+  input[type=date]{font:inherit;padding:8px 13px;border:1px solid #ddd6c4;border-radius:9999px;background:#fff;color:var(--ink)}
+  input:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 3px rgba(201,169,97,.25)}
+  button{font:inherit;font-weight:600;padding:8px 15px;border:0;border-radius:9999px;
+    background:var(--forest);color:var(--paper);cursor:pointer;transition:transform .15s,background .2s}
+  button:hover{background:var(--forest-light)} button:active{transform:scale(.97)}
+  button.ghost{background:transparent;color:var(--forest);border:1px solid #cdd6cb}
+  button.ghost:hover{background:#eef2ec}
+  .weeklbl{font-family:var(--serif);color:var(--forest-dark);font-size:1.1rem}
+  .pill{font-size:.72rem;font-weight:600;padding:4px 11px;border-radius:9999px;letter-spacing:.02em}
+  .pill.on{background:#e7efe6;color:var(--forest)} .pill.off{background:#f7e4e9;color:var(--rose-dark)}
+  .saved{font-size:.74rem;color:var(--moss);opacity:0;transition:opacity .3s}
+  .saved.show{opacity:1}
+  .scroll{overflow-x:auto}
+  table{border-collapse:separate;border-spacing:0;width:100%;font-size:.82rem;
+    border:1px solid #e7e1d2;border-radius:16px;overflow:hidden;min-width:920px}
+  th,td{border-bottom:1px solid #efe9db;border-right:1px solid #efe9db;padding:0;text-align:center}
+  tr:last-child td{border-bottom:0} th:last-child,td:last-child{border-right:0}
+  th{background:var(--forest);color:var(--paper);font-weight:600;padding:9px 4px;font-size:.72rem;text-transform:uppercase;letter-spacing:.03em}
+  th small{color:var(--gold-soft);font-weight:400}
+  th.hoy,td.hoy{outline:2px solid var(--gold);outline-offset:-2px}
+  .emp{text-align:left;padding:9px 12px;font-weight:600;background:#f3efe3;color:var(--forest-dark);white-space:nowrap;font-size:.8rem}
+  .emp .rol{display:block;font-weight:400;font-size:.66rem;color:var(--moss)}
+  .cell{padding:8px 4px;font-weight:600;cursor:pointer;user-select:none;min-width:86px;transition:filter .12s}
+  .cell:hover{filter:brightness(.95)}
+  .cell small{display:block;font-weight:400;font-size:.64rem;opacity:.75}
+  .manana{background:var(--manana);color:var(--manana-b)}
+  .tarde{background:var(--tarde);color:var(--tarde-b)}
+  .descanso{background:var(--descanso);color:var(--descanso-b);font-style:italic}
+  .vacaciones{background:var(--vac);color:var(--vac-b);font-style:italic}
+  .custom{background:var(--custom);color:var(--custom-b)}
+  .cabrow td{background:#f6f2e8;font-weight:700;color:var(--forest-dark);padding:7px 3px}
+  .cabrow .ref{display:block;font-size:.6rem;font-weight:700;color:var(--gold);letter-spacing:.03em}
+  .cov{font-size:.7rem;font-weight:700;padding:6px 3px;background:#f6f2e8}
+  .cov .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:3px;vertical-align:middle}
+  .ok{color:var(--verde)} .ok .dot{background:var(--verde)}
+  .warn{color:var(--ambar)} .warn .dot{background:var(--ambar)}
+  .bad{color:var(--rojo)} .bad .dot{background:var(--rojo)}
+  .notarow td{background:#fbf9f2;padding:3px}
+  .notarow .emp{background:#f3efe3}
+  .notarow input{width:100%;border:0;background:transparent;font:inherit;font-size:.7rem;color:var(--ink-soft);padding:4px 6px;text-align:center}
+  .notarow input:focus{outline:none;background:#fff;border-radius:6px}
+  .legend{display:flex;gap:16px;flex-wrap:wrap;font-size:.78rem;margin-top:14px;color:var(--ink-soft)}
+  .legend span{display:inline-flex;align-items:center;gap:6px}
+  .chip{width:15px;height:15px;border-radius:5px;display:inline-block;border:1px solid rgba(0,0,0,.08)}
+  .note{font-size:.77rem;color:var(--moss);background:#f7f3e6;border:1px dashed var(--gold-soft);border-radius:14px;padding:11px 13px;margin-top:14px}
+  /* popover editor */
+  #pop{position:absolute;z-index:50;display:none;background:var(--paper);border:1px solid #e0d8c5;
+    border-radius:16px;box-shadow:var(--shadow-pop);padding:8px;min-width:180px}
+  #pop .who{font-size:.72rem;color:var(--moss);padding:2px 6px 6px;font-weight:600}
+  #pop button{display:block;width:100%;text-align:left;margin:2px 0;padding:7px 10px;border-radius:9px;
+    background:#fff;color:var(--ink);border:1px solid #ece6d6;font-weight:500;font-size:.8rem}
+  #pop button:hover{background:#f0f4ee;border-color:var(--gold-soft)}
+  #pop .row{display:flex;gap:6px;align-items:center;padding:4px 6px}
+  #pop input[type=time]{font:inherit;font-size:.78rem;padding:5px;border:1px solid #ddd6c4;border-radius:8px}
+  #pop .mini{padding:6px 10px;font-size:.76rem;background:var(--forest);color:#fff;border:0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Turnos · Hotel La Palma <span class="amp">&amp;</span> El Tucán</h1>
+  <p class="sub">Parrilla conectada a las reservas (Cloudbeds) · clic en una celda para editar el turno · se guarda solo</p>
+
+  <div class="card">
+    <div class="bar">
+      <button class="ghost" id="prev">‹ Anterior</button>
+      <input type="date" id="fecha" />
+      <button class="ghost" id="next">Siguiente ›</button>
+      <span class="weeklbl" id="weeklbl"></span>
+      <span class="grow"></span>
+      <span class="pill" id="cbstatus">Cloudbeds…</span>
+      <span class="saved" id="saved">Guardado ✓</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="scroll"><table id="grid"></table></div>
+    <div class="legend">
+      <span><span class="chip" style="background:var(--manana)"></span> Mañana 7:00–15:00</span>
+      <span><span class="chip" style="background:var(--tarde)"></span> Tarde/Cierre 14:00–cierre</span>
+      <span><span class="chip" style="background:var(--custom)"></span> Horario por rol</span>
+      <span><span class="chip" style="background:var(--descanso)"></span> Descanso</span>
+      <span><span class="chip" style="background:var(--vac)"></span> Vacaciones</span>
+    </div>
+    <div class="note" id="footnote">Cargando ocupación…</div>
+  </div>
+</div>
+
+<div id="pop"></div>
+
+<script>
+const DIAS=["Lun","Mar","Mié","Jue","Vie","Sáb","Dom"];
+const UMBRAL=6;
+const REF_MONDAY=new Date(2026,5,8);
+// Plantilla real (TURNOS 2026.xlsx). rol 'rotacion' = rotación auto mañana/tarde.
+const EMPLEADOS=[
+  {id:'ctorres',nombre:'Claudia Torres',rol:'rotacion',inicial:'manana',descanso:1},
+  {id:'maribel',nombre:'Maribel Páez',rol:'rotacion',inicial:'manana',descanso:2},
+  {id:'shean',  nombre:'Shean Paul',  rol:'rotacion',inicial:'tarde', descanso:3},
+  {id:'nicolas',nombre:'Nicolás Sarmiento',rol:'rotacion',inicial:'tarde',descanso:4},
+  {id:'cmonte', nombre:'Claudia Montenegro',rol:'rol',base:['08:00','16:00'],descanso:0},
+  {id:'kelly',  nombre:'Kelly Cruz',  rol:'rol',base:['08:00','16:00'],descanso:5},
+  {id:'diego',  nombre:'Diego Díaz',  rol:'rol',base:['09:00','17:00'],descanso:4},
+  {id:'deisy',  nombre:'Deisy Rodríguez',rol:'rol',base:['08:00','16:00'],descanso:1},
+  {id:'daniela',nombre:'Daniela Monroy',rol:'rol',base:['08:00','16:00'],descanso:6},
+  {id:'nicolle',nombre:'Nicolle',     rol:'rol',base:['07:00','15:00'],descanso:0},
+  {id:'zaira',  nombre:'Zaira',       rol:'rol',base:['07:00','15:00'],descanso:2},
+  {id:'gerwin', nombre:'Gerwin',      rol:'rol',base:['08:00','16:00'],descanso:3},
+  {id:'santiago',nombre:'Santiago',   rol:'rol',base:['09:30','17:30'],descanso:5},
+];
+const ROL_LABEL={rotacion:'rotación',rol:'por rol'};
+
+let overrides={}, notas={}, ocup={};
+const fechaInput=document.getElementById('fecha');
+fechaInput.value="2026-06-08";
+
+const iso=d=>d.toISOString().slice(0,10);
+const hoy=iso(new Date());
+function mondayOf(d){const x=new Date(d);const k=(x.getDay()+6)%7;x.setDate(x.getDate()-k);x.setHours(0,0,0,0);return x;}
+function weekIndex(d){return Math.round((mondayOf(d)-REF_MONDAY)/(7*864e5));}
+function turnoRot(emp,d){const flip=(((weekIndex(d)%2)+2)%2)===1;let t=emp.inicial;if(flip)t=(t==='manana'?'tarde':'manana');return t;}
+function descansoBase(emp,dow){return emp.descanso===dow;}
+
+// turno efectivo: override > rotación/base
+function efectivo(emp,d,dow){
+  const ov=overrides[`${emp.id}|${iso(d)}`];
+  if(ov) return ov;
+  if(descansoBase(emp,dow)) return {tipo:'descanso'};
+  if(emp.rol==='rotacion'){
+    return turnoRot(emp,d)==='manana'
+      ? {tipo:'manana',ini:'07:00',fin:'15:00'}
+      : {tipo:'tarde',ini:'14:00',fin:'cierre'};
+  }
+  return {tipo:'custom',ini:emp.base[0],fin:emp.base[1]};
+}
+function etiqueta(e){
+  if(e.tipo==='manana')return['Mañana','7:00–15:00'];
+  if(e.tipo==='tarde') return['Tarde','14:00–cierre'];
+  if(e.tipo==='descanso')return['Descanso',''];
+  if(e.tipo==='vacaciones')return['Vacaciones',''];
+  return[`${(e.ini||'').replace(':00','')}–${(e.fin||'').replace(':00','')}`,'por rol'];
+}
+
+let saveTimer=null;
+function autosave(){
+  clearTimeout(saveTimer);
+  saveTimer=setTimeout(async()=>{
+    try{
+      await fetch('/api/parrilla',{method:'POST',headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({overrides,notas})});
+      const s=document.getElementById('saved');s.classList.add('show');setTimeout(()=>s.classList.remove('show'),1200);
+    }catch(e){}
+  },500);
+}
+
+async function cargarOcupacion(){
+  const base=mondayOf(fechaInput.value);
+  try{
+    const r=await fetch(`/api/ocupacion?desde=${iso(base)}&dias=7`);
+    const j=await r.json();
+    ocup={};(j.dias||[]).forEach(d=>ocup[d.fecha]=d.cabanas);
+    const fn=document.getElementById('footnote');
+    if(j.success){
+      const max=Math.max(0,...Object.values(ocup));
+      fn.innerHTML=`<b>Ocupación en vivo de Cloudbeds.</b> Regla: &gt;${UMBRAL} cabañas/noche ⇒ 2 personas en cierre. Pico de la semana: ${max} cabañas. Edita un turno con clic; se guarda solo.`;
+    }else{
+      fn.innerHTML=`⚠ No se pudo leer la ocupación (${j.error||'sin conexión'}). La parrilla funciona igual; las cabañas saldrán en 0.`;
+    }
+  }catch(e){ocup={};}
+}
+
+function render(){
+  const base=mondayOf(fechaInput.value);
+  const dias=[...Array(7)].map((_,i)=>{const d=new Date(base);d.setDate(d.getDate()+i);return d;});
+  const wi=weekIndex(fechaInput.value);
+  document.getElementById('weeklbl').textContent=
+    `${dias[0].toLocaleDateString('es-CO',{day:'numeric',month:'short'})} – ${dias[6].toLocaleDateString('es-CO',{day:'numeric',month:'short'})} · sem ${wi%2===0?'PAR':'IMPAR'}`;
+
+  let h="<tr><th class='emp' style='background:var(--forest)'>Colaborador</th>";
+  dias.forEach((d,i)=>{h+=`<th class='${iso(d)===hoy?'hoy':''}'>${DIAS[i]}<br><small>${d.getDate()}</small></th>`;});
+  h+="</tr>";
+
+  EMPLEADOS.forEach(emp=>{
+    h+=`<tr><td class='emp'>${emp.nombre}<span class='rol'>${ROL_LABEL[emp.rol]}</span></td>`;
+    dias.forEach((d,i)=>{
+      const e=efectivo(emp,d,i);const[a,b]=etiqueta(e);
+      const cls=e.tipo;
+      h+=`<td class='cell ${cls} ${iso(d)===hoy?'hoy':''}' data-e='${emp.id}' data-d='${iso(d)}'>${a}${b?`<small>${b}</small>`:''}</td>`;
+    });
+    h+="</tr>";
+  });
+
+  // cabañas (Cloudbeds)
+  h+="<tr class='cabrow'><td class='emp'>Cabañas reservadas<span class='rol'>Cloudbeds</span></td>";
+  dias.forEach(d=>{const c=ocup[iso(d)];const n=(c==null?'—':c);
+    h+=`<td class='${iso(d)===hoy?'hoy':''}'>${n}${(c>UMBRAL)?"<span class='ref'>★ refuerzo</span>":''}</td>`;});
+  h+="</tr>";
+
+  // cobertura de cierre
+  h+="<tr><td class='emp'>En cierre (tarde)<span class='rol'>vs requerido</span></td>";
+  dias.forEach((d,i)=>{
+    let nTarde=0;
+    EMPLEADOS.forEach(emp=>{const e=efectivo(emp,d,i);if(e.tipo==='tarde')nTarde++;});
+    const c=ocup[iso(d)];const req=(c>UMBRAL)?2:1;
+    let cls='ok';if(c>UMBRAL&&nTarde<2)cls='bad';else if(c>UMBRAL)cls='warn';
+    h+=`<td class='cov ${cls}'><span class='dot'></span>${nTarde}/${req}</td>`;
+  });
+  h+="</tr>";
+
+  // notas por día
+  h+="<tr class='notarow'><td class='emp'>Notas del día</td>";
+  dias.forEach(d=>{h+=`<td><input data-nota='${iso(d)}' value="${(notas[iso(d)]||'').replace(/"/g,'&quot;')}" placeholder="…"></td>`;});
+  h+="</tr>";
+
+  const g=document.getElementById('grid');g.innerHTML=h;
+  g.querySelectorAll('.cell').forEach(c=>c.addEventListener('click',ev=>abrirPop(ev,c.dataset.e,c.dataset.d)));
+  g.querySelectorAll('input[data-nota]').forEach(inp=>inp.addEventListener('change',()=>{
+    const k=inp.dataset.nota;const v=inp.value.trim();
+    if(v)notas[k]=v;else delete notas[k];autosave();}));
+}
+
+const pop=document.getElementById('pop');
+function setOv(empId,fecha,val){
+  const k=`${empId}|${fecha}`;
+  if(val===null)delete overrides[k];else overrides[k]=val;
+  autosave();render();pop.style.display='none';
+}
+function abrirPop(ev,empId,fecha){
+  const emp=EMPLEADOS.find(e=>e.id===empId);
+  pop.innerHTML=`<div class='who'>${emp.nombre} · ${new Date(fecha+'T00:00').toLocaleDateString('es-CO',{weekday:'short',day:'numeric',month:'short'})}</div>`+
+    `<button data-v='manana'>🌅 Mañana (7–3)</button>`+
+    `<button data-v='tarde'>🌆 Tarde/Cierre (2–cierre)</button>`+
+    `<button data-v='descanso'>🛌 Descanso</button>`+
+    `<button data-v='vacaciones'>🏖️ Vacaciones</button>`+
+    `<div class='row'><input type='time' id='ti' value='08:00'><span>–</span><input type='time' id='tf' value='16:00'><button class='mini' id='okc'>Fijar</button></div>`+
+    `<button data-v='clear' style='color:var(--rose-dark)'>↩ Quitar edición (auto)</button>`;
+  pop.style.display='block';
+  const x=Math.min(ev.pageX,window.scrollX+window.innerWidth-210);
+  pop.style.left=x+'px';pop.style.top=(ev.pageY+6)+'px';
+  pop.querySelectorAll('button[data-v]').forEach(b=>b.onclick=()=>{
+    const v=b.dataset.v;
+    if(v==='clear')return setOv(empId,fecha,null);
+    if(v==='manana')return setOv(empId,fecha,{tipo:'manana',ini:'07:00',fin:'15:00'});
+    if(v==='tarde') return setOv(empId,fecha,{tipo:'tarde',ini:'14:00',fin:'cierre'});
+    return setOv(empId,fecha,{tipo:v});
+  });
+  pop.querySelector('#okc').onclick=()=>{
+    const ini=pop.querySelector('#ti').value,fin=pop.querySelector('#tf').value;
+    setOv(empId,fecha,{tipo:'custom',ini,fin});
+  };
+}
+document.addEventListener('click',e=>{if(!pop.contains(e.target)&&!e.target.classList.contains('cell'))pop.style.display='none';});
+
+async function cargarStatus(){
+  try{const r=await fetch('/api/health');const j=await r.json();
+    const s=document.getElementById('cbstatus');
+    if(j.ok){s.className='pill on';s.textContent=`● ${j.hotel||'Cloudbeds'}`;}
+    else{s.className='pill off';s.textContent='● Cloudbeds sin conexión';}
+  }catch(e){}
+}
+async function cargarParrilla(){
+  try{const r=await fetch('/api/parrilla');const j=await r.json();
+    overrides=j.overrides||{};notas=j.notas||{};}catch(e){}
+}
+async function recargar(){await cargarOcupacion();render();}
+document.getElementById('prev').onclick=()=>shift(-7);
+document.getElementById('next').onclick=()=>shift(7);
+function shift(n){const d=new Date(fechaInput.value);d.setDate(d.getDate()+n);fechaInput.value=iso(d);recargar();}
+fechaInput.addEventListener('change',recargar);
+
+(async function init(){
+  await Promise.all([cargarStatus(),cargarParrilla()]);
+  await cargarOcupacion();
+  render();
+})();
+</script>
+</body>
+</html>

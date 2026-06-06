@@ -6,12 +6,31 @@ manual en Excel (`TURNOS 2026.xlsx` + `formato horas extras.xlsx`).
 
 ## Contenido
 
+- **`servidor_turnos.py`** + **`app.html`** — la **app funcional conectada**
+  (backend local + frontend). Lee la ocupación real de Cloudbeds y guarda las
+  ediciones de horarios. **Esto es lo que se usa.**
+- **`start.bat`** — lanza la app con doble clic (Windows).
 - **`DISENO-TURNOS.md`** — diseño completo: reglas, modelo de datos, fases,
   hallazgos de Cloudbeds y de los Excel de Lina.
-- **`prototipo-parrilla.html`** — prototipo visual (abrir en el navegador). Vista
-  calendario, rotación mañana/tarde lun→lun, descansos editables, ocupación por
-  día → semáforo de cobertura (regla >6 cabañas → 2 personas).
+- **`prototipo-parrilla.html`** — prototipo estático offline (sin backend), por
+  si se quiere mostrar sin levantar el servidor.
 - **`validar_cloudbeds.py`** — valida la conexión a la API de Cloudbeds.
+
+## Cómo correr la app
+
+```bash
+python servidor_turnos.py        # o doble clic a start.bat (Windows)
+# abre http://localhost:8787
+```
+
+Necesita Python 3 (solo librería estándar, sin pip install) y el token de
+Cloudbeds disponible (vault `apis.json` en esta PC, o `CLOUDBEDS_API_TOKEN` en
+otra terminal). La app:
+- trae las **cabañas reservadas por noche** de Cloudbeds (regla >6 → refuerzo),
+- muestra la **plantilla real** (~13 personas; rotación auto para Claudia Torres,
+  Maribel, Shean y Nicolás),
+- permite **editar cada turno** con clic (mañana/tarde/descanso/vacaciones/
+  horario por rol) y **notas por día**; se guarda solo en `data/parrilla.json`.
 
 ## Estado
 
