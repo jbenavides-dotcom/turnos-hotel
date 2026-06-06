@@ -3,60 +3,84 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Parrilla de Turnos · Hotel LP&ET (prototipo)</title>
+<title>Parrilla de Turnos · Hotel La Palma y El Tucán</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --forest:#2d6a4f; --forest-dark:#1b4332; --paper:#fbfaf7; --ink:#26302b;
-    --manana:#e8f3ec; --manana-b:#2d6a4f;
-    --tarde:#fdeee6; --tarde-b:#c2683a;
-    --descanso:#eceae4; --descanso-b:#8a8577;
-    --rojo:#c0392b; --ambar:#d98a00; --verde:#2d6a4f;
+    /* Paleta oficial del Hotel La Palma y El Tucán (igual que la web Next.js) */
+    --forest:#1f3a2e; --forest-dark:#122218; --forest-light:#2d5340;
+    --moss:#4a6b5c; --sage:#b8c9ba; --cream:#f5f0e6; --paper:#fbf8f1;
+    --gold:#c9a961; --gold-soft:#e8d9a8; --rose:#f27b9a; --rose-dark:#e85d80;
+    --ink:#1a1a1a; --ink-soft:#4a4a4a;
+    /* Turnos (derivados de la paleta) */
+    --manana:#e7efe6; --manana-b:#2d5340;
+    --tarde:#f6ecd4; --tarde-b:#8a6d2f;
+    --descanso:#eceae1; --descanso-b:#7d8a7f;
+    --rojo:var(--rose-dark); --ambar:var(--gold); --verde:var(--forest-light);
+    --serif:'Baskervville',Georgia,serif;
+    --sans:'Montserrat',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    --shadow-soft:0 12px 40px -16px rgba(31,58,46,.18);
   }
   *{box-sizing:border-box}
-  body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
-    background:#f3f1ec;color:var(--ink);padding:24px;line-height:1.4}
-  .wrap{max-width:1100px;margin:0 auto}
-  h1{font-size:1.5rem;margin:0 0 4px;color:var(--forest-dark)}
-  .sub{color:#6b6b6b;font-size:.9rem;margin:0 0 20px}
-  .card{background:var(--paper);border:1px solid #e3e0d8;border-radius:16px;
-    padding:18px;margin-bottom:18px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+  body{margin:0;font-family:var(--sans);background:var(--cream);color:var(--ink);
+    padding:28px 24px;line-height:1.45;
+    background-image:radial-gradient(circle at 12% -10%, rgba(201,169,97,.10), transparent 42%)}
+  .wrap{max-width:1120px;margin:0 auto}
+  h1{font-family:var(--serif);font-weight:400;font-size:2rem;margin:0 0 4px;
+    color:var(--forest-dark);letter-spacing:.01em}
+  h1 .amp{color:var(--rose);font-style:italic}
+  .sub{color:var(--ink-soft);font-size:.92rem;margin:0 0 22px}
+  .card{background:var(--paper);border:1px solid #e7e1d2;border-radius:28px;
+    padding:22px;margin-bottom:20px;box-shadow:var(--shadow-soft)}
   .controls{display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end}
-  .controls label{display:flex;flex-direction:column;font-size:.78rem;
-    font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:#777;gap:5px}
-  input[type=date],input[type=number]{font:inherit;padding:8px 10px;border:1px solid #d6d2c8;
-    border-radius:9px;background:#fff}
-  button{font:inherit;font-weight:600;padding:8px 14px;border:0;border-radius:9px;
-    background:var(--forest);color:#fff;cursor:pointer}
-  button.ghost{background:#fff;color:var(--forest-dark);border:1px solid #cdd6d0}
-  .weeklbl{font-weight:700;color:var(--forest-dark);font-size:1.05rem}
-  table{border-collapse:collapse;width:100%;font-size:.85rem}
-  th,td{border:1px solid #e6e3db;padding:0;text-align:center}
-  th{background:#f7f5ef;font-weight:700;padding:8px 4px}
-  th.hoy,td.hoy{outline:2px solid var(--forest);outline-offset:-2px}
-  .emp{text-align:left;padding:10px 12px;font-weight:600;background:#faf9f5;white-space:nowrap}
-  .cell{padding:10px 4px;font-weight:600;cursor:pointer;user-select:none;min-width:78px}
-  .cell small{display:block;font-weight:400;font-size:.68rem;opacity:.7}
+  .controls label{display:flex;flex-direction:column;font-size:.72rem;
+    font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:var(--moss);gap:6px}
+  input[type=date],input[type=number]{font:inherit;padding:9px 13px;border:1px solid #ddd6c4;
+    border-radius:9999px;background:#fff;color:var(--ink)}
+  input:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 3px rgba(201,169,97,.25)}
+  button{font:inherit;font-weight:600;padding:9px 18px;border:0;border-radius:9999px;
+    background:var(--forest);color:var(--paper);cursor:pointer;transition:transform .15s,background .2s}
+  button:hover{background:var(--forest-light)}
+  button:active{transform:scale(.97)}
+  button.ghost{background:transparent;color:var(--forest);border:1px solid #cdd6cb}
+  button.ghost:hover{background:#eef2ec}
+  .weeklbl{font-family:var(--serif);font-weight:400;color:var(--forest-dark);font-size:1.15rem}
+  table{border-collapse:separate;border-spacing:0;width:100%;font-size:.85rem;
+    border:1px solid #e7e1d2;border-radius:18px;overflow:hidden}
+  th,td{border-bottom:1px solid #efe9db;border-right:1px solid #efe9db;padding:0;text-align:center}
+  tr:last-child td{border-bottom:0} th:last-child,td:last-child{border-right:0}
+  th{background:var(--forest);color:var(--paper);font-weight:600;padding:10px 4px;
+    font-size:.74rem;letter-spacing:.04em;text-transform:uppercase}
+  th small{color:var(--gold-soft)}
+  th.hoy,td.hoy{outline:2px solid var(--gold);outline-offset:-2px}
+  .emp{text-align:left;padding:11px 14px;font-weight:600;background:#f3efe3;
+    color:var(--forest-dark);white-space:nowrap}
+  .cell{padding:11px 4px;font-weight:600;cursor:pointer;user-select:none;min-width:80px;transition:filter .15s}
+  .cell:hover{filter:brightness(.96)}
+  .cell small{display:block;font-weight:400;font-size:.66rem;opacity:.72}
   .manana{background:var(--manana);color:var(--manana-b)}
   .tarde{background:var(--tarde);color:var(--tarde-b)}
   .descanso{background:var(--descanso);color:var(--descanso-b);font-style:italic}
-  .cabrow td{padding:6px 4px;background:#fcfbf8}
-  .cabrow input{width:54px;text-align:center;padding:4px}
-  .cov{font-size:.7rem;font-weight:700;padding:6px 4px}
-  .cov .dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:3px;vertical-align:middle}
+  .cabrow td{padding:7px 4px;background:#f6f2e8}
+  .cabrow input{width:56px;text-align:center;padding:5px;border-radius:8px;border:1px solid #ddd6c4}
+  .cov{font-size:.7rem;font-weight:700;padding:7px 4px;background:#f6f2e8}
+  .cov .dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:4px;vertical-align:middle}
   .ok{color:var(--verde)} .ok .dot{background:var(--verde)}
   .warn{color:var(--ambar)} .warn .dot{background:var(--ambar)}
   .bad{color:var(--rojo)} .bad .dot{background:var(--rojo)}
-  .legend{display:flex;gap:18px;flex-wrap:wrap;font-size:.8rem;margin-top:14px;color:#555}
+  .legend{display:flex;gap:20px;flex-wrap:wrap;font-size:.8rem;margin-top:16px;color:var(--ink-soft)}
   .legend span{display:inline-flex;align-items:center;gap:6px}
-  .chip{width:16px;height:16px;border-radius:5px;display:inline-block;border:1px solid rgba(0,0,0,.08)}
-  .note{font-size:.78rem;color:#8a8577;background:#fffdf6;border:1px dashed #e0d9c4;
-    border-radius:10px;padding:10px 12px;margin-top:14px}
-  .hint{font-size:.72rem;color:#999;margin-top:6px}
+  .chip{width:16px;height:16px;border-radius:6px;display:inline-block;border:1px solid rgba(0,0,0,.08)}
+  .note{font-size:.78rem;color:var(--moss);background:#f7f3e6;border:1px dashed var(--gold-soft);
+    border-radius:16px;padding:12px 14px;margin-top:16px}
+  .hint{font-size:.72rem;color:#9a9384;margin-top:8px}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <h1>Parrilla de Turnos · Hotel La Palma y El Tucán</h1>
+  <h1>Parrilla de Turnos · Hotel La Palma <span class="amp">&amp;</span> El Tucán</h1>
   <p class="sub">Prototipo de diseño · rotación semanal lun→lun · conexión a reservas (cabañas) — <b>borrador para revisar con Lina</b></p>
 
   <div class="card">
@@ -135,7 +159,7 @@ function render(){
   let html = "<tr><th class='emp'>Personal</th>";
   dias.forEach((d,i)=>{
     const iso=d.toISOString().slice(0,10);
-    html+=`<th class='${iso===hoy?"hoy":""}'>${DIAS[i].slice(0,3)}<br><small style='font-weight:400;color:#999'>${d.getDate()}</small></th>`;
+    html+=`<th class='${iso===hoy?"hoy":""}'>${DIAS[i].slice(0,3)}<br><small>${d.getDate()}</small></th>`;
   });
   html+="</tr>";
 
