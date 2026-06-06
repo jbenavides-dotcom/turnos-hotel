@@ -1,0 +1,31 @@
+# === Secretos — NUNCA versionar ===
+apis.json
+key-apis/
+*.env
+.env
+.env.*
+*secret*
+*token*.json
+
+# === Datos de huéspedes / reservas (PII) — no subir ===
+data/
+*reservas*.json
+*ocupacion*.json
+*.dump
+
+# === Excel fuente de Lina (datos de nómina/personal) ===
+TURNOS*.xlsx
+*horas*extras*.xlsx
+~$*.xlsx
+
+# === Python ===
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# === SO / editores ===
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/

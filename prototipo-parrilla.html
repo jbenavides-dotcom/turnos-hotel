@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Parrilla de Turnos · Hotel LP&ET (prototipo)</title>
+<style>
+  :root{
+    --forest:#2d6a4f; --forest-dark:#1b4332; --paper:#fbfaf7; --ink:#26302b;
+    --manana:#e8f3ec; --manana-b:#2d6a4f;
+    --tarde:#fdeee6; --tarde-b:#c2683a;
+    --descanso:#eceae4; --descanso-b:#8a8577;
+    --rojo:#c0392b; --ambar:#d98a00; --verde:#2d6a4f;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    background:#f3f1ec;color:var(--ink);padding:24px;line-height:1.4}
+  .wrap{max-width:1100px;margin:0 auto}
+  h1{font-size:1.5rem;margin:0 0 4px;color:var(--forest-dark)}
+  .sub{color:#6b6b6b;font-size:.9rem;margin:0 0 20px}
+  .card{background:var(--paper);border:1px solid #e3e0d8;border-radius:16px;
+    padding:18px;margin-bottom:18px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+  .controls{display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end}
+  .controls label{display:flex;flex-direction:column;font-size:.78rem;
+    font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:#777;gap:5px}
+  input[type=date],input[type=number]{font:inherit;padding:8px 10px;border:1px solid #d6d2c8;
+    border-radius:9px;background:#fff}
+  button{font:inherit;font-weight:600;padding:8px 14px;border:0;border-radius:9px;
+    background:var(--forest);color:#fff;cursor:pointer}
+  button.ghost{background:#fff;color:var(--forest-dark);border:1px solid #cdd6d0}
+  .weeklbl{font-weight:700;color:var(--forest-dark);font-size:1.05rem}
+  table{border-collapse:collapse;width:100%;font-size:.85rem}
+  th,td{border:1px solid #e6e3db;padding:0;text-align:center}
+  th{background:#f7f5ef;font-weight:700;padding:8px 4px}
+  th.hoy,td.hoy{outline:2px solid var(--forest);outline-offset:-2px}
+  .emp{text-align:left;padding:10px 12px;font-weight:600;background:#faf9f5;white-space:nowrap}
+  .cell{padding:10px 4px;font-weight:600;cursor:pointer;user-select:none;min-width:78px}
+  .cell small{display:block;font-weight:400;font-size:.68rem;opacity:.7}
+  .manana{background:var(--manana);color:var(--manana-b)}
+  .tarde{background:var(--tarde);color:var(--tarde-b)}
+  .descanso{background:var(--descanso);color:var(--descanso-b);font-style:italic}
+  .cabrow td{padding:6px 4px;background:#fcfbf8}
+  .cabrow input{width:54px;text-align:center;padding:4px}
+  .cov{font-size:.7rem;font-weight:700;padding:6px 4px}
+  .cov .dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:3px;vertical-align:middle}
+  .ok{color:var(--verde)} .ok .dot{background:var(--verde)}
+  .warn{color:var(--ambar)} .warn .dot{background:var(--ambar)}
+  .bad{color:var(--rojo)} .bad .dot{background:var(--rojo)}
+  .legend{display:flex;gap:18px;flex-wrap:wrap;font-size:.8rem;margin-top:14px;color:#555}
+  .legend span{display:inline-flex;align-items:center;gap:6px}
+  .chip{width:16px;height:16px;border-radius:5px;display:inline-block;border:1px solid rgba(0,0,0,.08)}
+  .note{font-size:.78rem;color:#8a8577;background:#fffdf6;border:1px dashed #e0d9c4;
+    border-radius:10px;padding:10px 12px;margin-top:14px}
+  .hint{font-size:.72rem;color:#999;margin-top:6px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Parrilla de Turnos · Hotel La Palma y El Tucán</h1>
+  <p class="sub">Prototipo de diseño · rotación semanal lun→lun · conexión a reservas (cabañas) — <b>borrador para revisar con Lina</b></p>
+
+  <div class="card">
+    <div class="controls">
+      <label>Semana (cualquier fecha)
+        <input type="date" id="fecha" />
+      </label>
+      <button class="ghost" id="prev">‹ Semana anterior</button>
+      <button class="ghost" id="next">Semana siguiente ›</button>
+      <div style="margin-left:auto" class="weeklbl" id="weeklbl"></div>
+    </div>
+    <p class="hint">Tip: haz clic en una celda de turno para marcar/quitar <b>Descanso</b>. Edita las cabañas reservadas por día y mira el semáforo de cobertura.</p>
+  </div>
+
+  <div class="card">
+    <table id="grid"></table>
+    <div class="legend">
+      <span><span class="chip" style="background:var(--manana)"></span> Mañana 7:00–15:00</span>
+      <span><span class="chip" style="background:var(--tarde)"></span> Tarde/Cierre 14:00–cierre</span>
+      <span><span class="chip" style="background:var(--descanso)"></span> Descanso</span>
+      <span><span class="dot" style="display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--verde)"></span> Cobertura OK</span>
+      <span><span class="dot" style="display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--rojo)"></span> Falta personal</span>
+    </div>
+    <div class="note">
+      <b>Supuestos del prototipo (confirmar con Lina):</b> arranque sem. par → Claudia y Maribel en mañana, Shan y Nicolás en tarde.
+      Descansos escalonados (Claudia=Mar, Maribel=Mié, Shean=Jue, Nicolás=Vie).
+      Refuerzo: si las cabañas del día &gt; 6 ⇒ se requieren 2 personas en servicio.
+      Lunes de referencia = 2026-06-08.
+    </div>
+  </div>
+</div>
+
+<script>
+const DIAS = ["Lunes","Martes","Miércoles","Jueves","Viernes","Sábado","Domingo"];
+const UMBRAL_CABANAS = 6;            // > 6 ⇒ refuerzo
+const REF_MONDAY = new Date(2026, 5, 8); // 2026-06-08 (mes 0-indexado)
+
+// turno_inicial: turno en semanas PARES. descanso: 0=Lun..6=Dom (editable por clic).
+const EMPLEADOS = [
+  { nombre:"Claudia Torres", inicial:"manana", descanso:1 },
+  { nombre:"Maribel",        inicial:"manana", descanso:2 },
+  { nombre:"Shean Paul",     inicial:"tarde",  descanso:3 },
+  { nombre:"Nicolás",        inicial:"tarde",  descanso:4 },
+];
+
+// cabañas reservadas por día (editable). overrides de descanso manual: {emp_dia: true}
+let cabanas = [4,5,7,8,6,3,2];
+const overrides = {}; // clave `${empIdx}-${diaIdx}` => "descanso" forzado
+
+const fechaInput = document.getElementById("fecha");
+function hoyISO(){ const d=new Date(); return d.toISOString().slice(0,10); }
+fechaInput.value = "2026-06-09"; // martes de la reunión
+
+function mondayOf(d){ const x=new Date(d); const k=(x.getDay()+6)%7; x.setDate(x.getDate()-k); x.setHours(0,0,0,0); return x; }
+function weekIndex(d){ return Math.round((mondayOf(d)-REF_MONDAY)/(7*86400000)); }
+function turnoDe(emp,d){
+  const flip = (((weekIndex(d)%2)+2)%2)===1;
+  let t = emp.inicial;
+  if(flip) t = (t==="manana")?"tarde":"manana";
+  return t;
+}
+function esDescanso(empIdx,diaIdx){
+  const k=`${empIdx}-${diaIdx}`;
+  if(k in overrides) return overrides[k];
+  return EMPLEADOS[empIdx].descanso===diaIdx;
+}
+
+function render(){
+  const base = mondayOf(fechaInput.value);
+  const dias = [...Array(7)].map((_,i)=>{ const d=new Date(base); d.setDate(d.getDate()+i); return d; });
+  const wi = weekIndex(fechaInput.value);
+  document.getElementById("weeklbl").textContent =
+    `Semana del ${dias[0].toLocaleDateString("es-CO",{day:"numeric",month:"short"})} al ${dias[6].toLocaleDateString("es-CO",{day:"numeric",month:"short",year:"numeric"})} · ${wi%2===0?"PAR":"IMPAR"}`;
+  const hoy = hoyISO();
+
+  let html = "<tr><th class='emp'>Personal</th>";
+  dias.forEach((d,i)=>{
+    const iso=d.toISOString().slice(0,10);
+    html+=`<th class='${iso===hoy?"hoy":""}'>${DIAS[i].slice(0,3)}<br><small style='font-weight:400;color:#999'>${d.getDate()}</small></th>`;
+  });
+  html+="</tr>";
+
+  // filas de empleados
+  EMPLEADOS.forEach((emp,ei)=>{
+    html+=`<tr><td class='emp'>${emp.nombre}</td>`;
+    dias.forEach((d,di)=>{
+      const iso=d.toISOString().slice(0,10);
+      if(esDescanso(ei,di)){
+        html+=`<td class='cell descanso ${iso===hoy?"hoy":""}' data-e='${ei}' data-d='${di}'>Descanso</td>`;
+      }else{
+        const t=turnoDe(emp,d);
+        const lbl = t==="manana"?"Mañana":"Tarde";
+        const hr  = t==="manana"?"7:00–15:00":"14:00–cierre";
+        html+=`<td class='cell ${t} ${iso===hoy?"hoy":""}' data-e='${ei}' data-d='${di}'>${lbl}<small>${hr}</small></td>`;
+      }
+    });
+    html+="</tr>";
+  });
+
+  // fila cabañas
+  html+=`<tr class='cabrow'><td class='emp'>Cabañas reservadas</td>`;
+  dias.forEach((d,di)=>{
+    html+=`<td><input type='number' min='0' max='20' value='${cabanas[di]}' data-cab='${di}'></td>`;
+  });
+  html+="</tr>";
+
+  // fila cobertura
+  html+=`<tr><td class='emp'>Cobertura</td>`;
+  dias.forEach((d,di)=>{
+    let trabajan=0;
+    EMPLEADOS.forEach((e,ei)=>{ if(!esDescanso(ei,di)) trabajan++; });
+    const req = cabanas[di]>UMBRAL_CABANAS?2:1;
+    let cls="ok",txt=`${trabajan} en servicio`;
+    if(trabajan<req){cls="bad";txt=`${trabajan}/${req} ⚠ falta`;}
+    else if(cabanas[di]>UMBRAL_CABANAS){cls="warn";txt=`${trabajan} (refuerzo)`;}
+    html+=`<td class='cov ${cls}'><span class='dot'></span>${txt}</td>`;
+  });
+  html+="</tr>";
+
+  document.getElementById("grid").innerHTML=html;
+
+  document.querySelectorAll(".cell").forEach(c=>c.addEventListener("click",()=>{
+    const ei=+c.dataset.e, di=+c.dataset.d, k=`${ei}-${di}`;
+    overrides[k] = !esDescanso(ei,di); // alterna descanso manual
+    render();
+  }));
+  document.querySelectorAll("input[data-cab]").forEach(inp=>inp.addEventListener("input",()=>{
+    cabanas[+inp.dataset.cab]=+inp.value||0; render();
+  }));
+}
+
+document.getElementById("prev").onclick=()=>{ shift(-7); };
+document.getElementById("next").onclick=()=>{ shift(7); };
+function shift(n){ const d=new Date(fechaInput.value); d.setDate(d.getDate()+n); fechaInput.value=d.toISOString().slice(0,10); render(); }
+fechaInput.addEventListener("change",render);
+render();
+</script>
+</body>
+</html>
