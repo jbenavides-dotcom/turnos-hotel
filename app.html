@@ -13,11 +13,12 @@
     --moss:#4a6b5c; --sage:#b8c9ba; --cream:#f5f0e6; --paper:#fbf8f1;
     --gold:#c9a961; --gold-soft:#e8d9a8; --rose:#f27b9a; --rose-dark:#e85d80;
     --ink:#1a1a1a; --ink-soft:#4a4a4a;
-    --manana:#e7efe6; --manana-b:#2d5340;
-    --tarde:#f6ecd4; --tarde-b:#8a6d2f;
-    --descanso:#eceae1; --descanso-b:#7d8a7f;
-    --vac:#e9e3f1; --vac-b:#6a5a86;
-    --custom:#eaf0ee; --custom-b:#2d5340;
+    /* Paleta de Lina (de su Excel): amarillo=turno · azul=cierre · rojo=descanso · verde=vacaciones */
+    --manana:#fff200; --manana-b:#5b4a00;
+    --tarde:#00b0f0; --tarde-b:#063a4c;
+    --descanso:#ff2e2e; --descanso-b:#ffffff;
+    --vac:#5fae4e; --vac-b:#ffffff;
+    --custom:#ffe14d; --custom-b:#5b4a00;
     --rojo:var(--rose-dark); --ambar:var(--gold); --verde:var(--forest-light);
     --serif:'Baskervville',Georgia,serif;
     --sans:'Montserrat',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
@@ -64,8 +65,8 @@
   .cell small{display:block;font-weight:400;font-size:.64rem;opacity:.75}
   .manana{background:var(--manana);color:var(--manana-b)}
   .tarde{background:var(--tarde);color:var(--tarde-b)}
-  .descanso{background:var(--descanso);color:var(--descanso-b);font-style:italic}
-  .vacaciones{background:var(--vac);color:var(--vac-b);font-style:italic}
+  .descanso{background:var(--descanso);color:var(--descanso-b);font-weight:700;letter-spacing:.03em}
+  .vacaciones{background:var(--vac);color:var(--vac-b);font-weight:700;letter-spacing:.03em}
   .custom{background:var(--custom);color:var(--custom-b)}
   .cabrow td{background:#f6f2e8;font-weight:700;color:var(--forest-dark);padding:7px 3px}
   .cabrow .ref{display:block;font-size:.6rem;font-weight:700;color:var(--gold);letter-spacing:.03em}
@@ -116,10 +117,10 @@
     <div class="scroll"><table id="grid"></table></div>
     <div class="legend">
       <span><span class="chip" style="background:var(--manana)"></span> Mañana 7:00 am – 3:00 pm</span>
-      <span><span class="chip" style="background:var(--tarde)"></span> Tarde/Cierre 2:00 pm – cierre</span>
+      <span><span class="chip" style="background:var(--tarde)"></span> Tarde/Cierre 2:00 pm – CIERRE</span>
       <span><span class="chip" style="background:var(--custom)"></span> Horario por rol</span>
-      <span><span class="chip" style="background:var(--descanso)"></span> Descanso</span>
-      <span><span class="chip" style="background:var(--vac)"></span> Vacaciones</span>
+      <span><span class="chip" style="background:var(--descanso)"></span> DESCANSO</span>
+      <span><span class="chip" style="background:var(--vac)"></span> VACACIONES</span>
     </div>
     <div class="note" id="footnote">Cargando ocupación…</div>
   </div>
@@ -242,14 +243,14 @@ function efectivo(emp,d,dow){
 // Formato de hora como en el documento de Lina: "7:00 am", "3:00 pm", "cierre"
 function fmtHora(h){
   if(!h) return '';
-  if(h==='cierre') return 'cierre';
+  if(h==='cierre') return 'CIERRE';
   let [H,M]=h.split(':').map(Number);
   const ap=H>=12?'pm':'am'; let h12=H%12; if(h12===0)h12=12;
   return `${h12}:${String(M).padStart(2,'0')} ${ap}`;
 }
 function etiqueta(e){
-  if(e.tipo==='descanso')return['Descanso',''];
-  if(e.tipo==='vacaciones')return['Vacaciones',''];
+  if(e.tipo==='descanso')return['DESCANSO',''];
+  if(e.tipo==='vacaciones')return['VACACIONES',''];
   if(e.tipo==='manana')return['Mañana',`${fmtHora(e.ini||'07:00')} – ${fmtHora(e.fin||'15:00')}`];
   if(e.tipo==='tarde') return['Tarde',`${fmtHora(e.ini||'14:00')} – ${fmtHora(e.fin||'cierre')}`];
   return[`${fmtHora(e.ini)} – ${fmtHora(e.fin)}`,'por rol'];
