@@ -107,6 +107,7 @@
       <span class="weeklbl" id="weeklbl"></span>
       <span class="grow"></span>
       <span class="pill" id="cbstatus">Cloudbeds…</span>
+      <button id="gen" title="Arma el horario de la semana visible según la ocupación y las reglas. Luego puedes editar cada turno.">✨ Generar semana</button>
       <span class="saved" id="saved">Guardado ✓</span>
     </div>
   </div>
@@ -128,7 +129,7 @@
 
 <script>
 const DIAS=["Lun","Mar","Mié","Jue","Vie","Sáb","Dom"];
-const UMBRAL=6;
+const UMBRAL=7;
 const REF_MONDAY=new Date(2026,5,8);
 // Plantilla real (TURNOS 2026.xlsx). rol 'rotacion' = rotación auto mañana/tarde.
 const EMPLEADOS=[
@@ -150,7 +151,75 @@ const ROL_LABEL={rotacion:'rotación',rol:'por rol'};
 
 let overrides={}, notas={}, ocup={};
 const fechaInput=document.getElementById('fecha');
-fechaInput.value="2026-06-08";
+
+// ===== Generador de horario semanal (reglas de Lina + ocupación Cloudbeds) =====
+const UMBRAL_GEN=7;                 // > 7 cabañas ⇒ 2 en servicio + Zaira a cocina
+const ELEGIBLES={
+  cocina:['ctorres','maribel','zaira','cmonte','deisy'],        // ClauM/Deisy apoyan cocina
+  servicio:['nicolas','shean','gerwin','kelly','daniela','zaira'],
+  guia:['kelly','daniela'],
+  areas_publicas:['cmonte','deisy'],
+  conductor:['diego'],
+};
+const EMP_GEN=['ctorres','maribel','zaira','nicolas','shean','kelly','daniela','gerwin','cmonte','deisy','diego'];
+const TURNOS_GEN={
+  AM:{tipo:'manana',ini:'07:00',fin:'15:00'},
+  PM:{tipo:'tarde',ini:'14:00',fin:'cierre'},
+  DIA:{tipo:'custom',ini:'08:00',fin:'16:00'},
+  CONDUCTOR:{tipo:'custom',ini:'09:00',fin:'17:00'},
+  TOUR:{tipo:'custom',ini:'09:00',fin:'17:00'},
+  LIGHT:{tipo:'custom',ini:'08:00',fin:'16:00'},      // sin huéspedes: sale ≤ 6pm
+  AMCIERRE:{tipo:'custom',ini:'07:00',fin:'cierre'},  // domingo checkout-total
+};
+function necesidades(cab,wd){
+  const refuerzo=(cab!=null&&cab>UMBRAL_GEN);
+  if(cab===0&&wd<5) return [['cocina','LIGHT'],['areas_publicas','LIGHT']];      // entre semana sin huéspedes
+  if(cab===0&&wd===6) return [['cocina','AMCIERRE'],['servicio','AMCIERRE']];    // domingo: mañana hasta cierre
+  const need=[['cocina','AM'],['servicio','PM']];                                // abre desayuno + cierra servicio
+  if(cab>=1) need.push(['areas_publicas','DIA']);
+  if(cab>=3) need.push(['cocina','PM'],['guia','TOUR'],['areas_publicas','DIA']);// cena + tour + aseo
+  if(refuerzo) need.push(['servicio','AM'],['cocina','PM']);                     // 2º servicio + Zaira cocina
+  need.push(['conductor','CONDUCTOR']);
+  return need;
+}
+function generarSemana(base){
+  const dias=[...Array(7)].map((_,i)=>{const d=new Date(base);d.setDate(d.getDate()+i);return d;});
+  const trab={}; EMP_GEN.forEach(id=>trab[id]=0);
+  const nuevos={};
+  dias.forEach(d=>{
+    const k=iso(d), cab=ocup[k], wd=(d.getDay()+6)%7;
+    const need=necesidades(cab,wd), usados=new Set();
+    const refuerzo=(cab!=null&&cab>UMBRAL_GEN);
+    need.forEach(([func,turno])=>{
+      let cands=(ELEGIBLES[func]||[]).filter(p=>!usados.has(p));
+      if(!cands.length) return;
+      let elegido;
+      if(refuerzo&&func==='cocina'&&turno==='PM'&&cands.includes('zaira')) elegido='zaira';
+      else { cands.sort((a,b)=>(trab[a]-trab[b])||(ELEGIBLES[func].indexOf(a)-ELEGIBLES[func].indexOf(b))); elegido=cands[0]; }
+      usados.add(elegido); trab[elegido]++;
+      nuevos[`${elegido}|${k}`]=Object.assign({},TURNOS_GEN[turno]);
+    });
+    EMP_GEN.forEach(id=>{ if(!usados.has(id)) nuevos[`${id}|${k}`]={tipo:'descanso'}; });
+  });
+  // Garantía: todos descansan ≥1 día/semana. A quien quede full, descanso en su día de menor ocupación.
+  EMP_GEN.forEach(id=>{
+    if(dias.some(d=>nuevos[`${id}|${iso(d)}`].tipo==='descanso')) return;
+    let mejor=null, mc=Infinity;
+    dias.forEach(d=>{const k=iso(d),o=nuevos[`${id}|${k}`]; if(o.tipo==='descanso')return; const c=(ocup[k]==null?0:ocup[k]); if(c<mc){mc=c;mejor=k;}});
+    if(mejor) nuevos[`${id}|${mejor}`]={tipo:'descanso'};
+  });
+  return nuevos;
+}
+function generarBoton(){
+  const base=mondayOf(fechaInput.value);
+  const f0=new Date(base), f6=new Date(base); f6.setDate(f6.getDate()+6);
+  const lbl=`${f0.toLocaleDateString('es-CO',{day:'numeric',month:'short'})} – ${f6.toLocaleDateString('es-CO',{day:'numeric',month:'short'})}`;
+  if(!confirm(`¿Generar el horario de la semana ${lbl} con la ocupación de Cloudbeds y las reglas?\n\nReemplaza lo que haya en esa semana. Luego puedes editar cualquier turno con clic (emergencias o cambios de último momento).`)) return;
+  Object.assign(overrides, generarSemana(base));
+  autosave(); render();
+}
+
+fechaInput.value=iso(new Date());
 
 const iso=d=>d.toISOString().slice(0,10);
 const hoy=iso(new Date());
@@ -303,6 +372,7 @@ async function cargarParrilla(){
 async function recargar(){await cargarOcupacion();render();}
 document.getElementById('prev').onclick=()=>shift(-7);
 document.getElementById('next').onclick=()=>shift(7);
+document.getElementById('gen').onclick=generarBoton;
 function shift(n){const d=new Date(fechaInput.value);d.setDate(d.getDate()+n);fechaInput.value=iso(d);recargar();}
 fechaInput.addEventListener('change',recargar);
 
