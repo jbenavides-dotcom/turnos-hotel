@@ -277,10 +277,9 @@ function generarBoton(){
   autosave(); render();
 }
 
-fechaInput.value=iso(new Date());
-
 const iso=d=>d.toISOString().slice(0,10);
 const hoy=iso(new Date());
+fechaInput.value=hoy;
 function mondayOf(d){const x=new Date(d);const k=(x.getDay()+6)%7;x.setDate(x.getDate()-k);x.setHours(0,0,0,0);return x;}
 function weekIndex(d){return Math.round((mondayOf(d)-REF_MONDAY)/(7*864e5));}
 function turnoRot(emp,d){const flip=(((weekIndex(d)%2)+2)%2)===1;let t=emp.inicial;if(flip)t=(t==='manana'?'tarde':'manana');return t;}
