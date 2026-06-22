@@ -173,8 +173,8 @@
   <div class="card">
     <div class="scroll"><table id="grid"></table></div>
     <div class="legend">
-      <span><span class="chip" style="background:var(--manana)"></span> Mañana 7:00–15:00</span>
-      <span><span class="chip" style="background:var(--tarde)"></span> Tarde/Cierre 14:00–cierre</span>
+      <span><span class="chip" style="background:var(--manana)"></span> Mañana 7:00 am – 3:00 pm</span>
+      <span><span class="chip" style="background:var(--tarde)"></span> Tarde/Cierre 2:00 pm – cierre</span>
       <span><span class="chip" style="background:var(--custom)"></span> Horario por rol</span>
       <span><span class="chip" style="background:var(--descanso)"></span> Descanso</span>
       <span><span class="chip" style="background:var(--vac)"></span> Vacaciones</span>
@@ -297,12 +297,20 @@ function efectivo(emp,d,dow){
   }
   return {tipo:'custom',ini:emp.base[0],fin:emp.base[1]};
 }
+// Formato de hora como en el documento de Lina: "7:00 am", "3:00 pm", "cierre"
+function fmtHora(h){
+  if(!h) return '';
+  if(h==='cierre') return 'cierre';
+  let [H,M]=h.split(':').map(Number);
+  const ap=H>=12?'pm':'am'; let h12=H%12; if(h12===0)h12=12;
+  return `${h12}:${String(M).padStart(2,'0')} ${ap}`;
+}
 function etiqueta(e){
-  if(e.tipo==='manana')return['Mañana','7:00–15:00'];
-  if(e.tipo==='tarde') return['Tarde','14:00–cierre'];
   if(e.tipo==='descanso')return['Descanso',''];
   if(e.tipo==='vacaciones')return['Vacaciones',''];
-  return[`${(e.ini||'').replace(':00','')}–${(e.fin||'').replace(':00','')}`,'por rol'];
+  if(e.tipo==='manana')return['Mañana',`${fmtHora(e.ini||'07:00')} – ${fmtHora(e.fin||'15:00')}`];
+  if(e.tipo==='tarde') return['Tarde',`${fmtHora(e.ini||'14:00')} – ${fmtHora(e.fin||'cierre')}`];
+  return[`${fmtHora(e.ini)} – ${fmtHora(e.fin)}`,'por rol'];
 }
 
 let saveTimer=null;
