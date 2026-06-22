@@ -1,0 +1,47 @@
+name: Deploy turnos a GitHub Pages
+
+# Publica docs/ en Pages, regenerando la ocupación de Cloudbeds en cada corrida.
+# El token vive como Secret CLOUDBEDS_API_TOKEN; nunca se commitea ni se publica.
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 */6 * * *"   # cada 6 horas refresca la ocupación
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generar ocupación desde Cloudbeds
+        env:
+          CLOUDBEDS_API_TOKEN: ${{ secrets.CLOUDBEDS_API_TOKEN }}
+          CLOUDBEDS_PROPERTY_ID: "203345"
+        run: python build_pages_ocupacion.py
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
