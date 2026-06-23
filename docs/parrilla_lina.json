@@ -1,0 +1,8802 @@
+{
+"generated": "2026-06-23T13:59:50",
+"plan": {
+"cmonte|2025-12-01": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2025-12-03": {
+"tipo": "descanso"
+},
+"cmonte|2025-12-04": {
+"tipo": "descanso"
+},
+"cmonte|2025-12-05": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2025-12-08": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2025-12-10": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "16:00"
+},
+"cmonte|2025-12-11": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2025-12-12": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"cmonte|2025-12-13": {
+"tipo": "descanso"
+},
+"cmonte|2025-12-14": {
+"tipo": "descanso"
+},
+"cmonte|2025-12-15": {
+"tipo": "tarde",
+"ini": "08:00",
+"fin": "cierre"
+},
+"cmonte|2025-12-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2025-12-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2025-12-18": {
+"tipo": "descanso"
+},
+"cmonte|2025-12-19": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"cmonte|2025-12-20": {
+"tipo": "descanso"
+},
+"cmonte|2025-12-21": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2025-12-22": {
+"tipo": "manana",
+"ini": "06:00",
+"fin": "12:00"
+},
+"cmonte|2025-12-23": {
+"tipo": "tarde",
+"ini": "07:00",
+"fin": "cierre"
+},
+"cmonte|2025-12-24": {
+"tipo": "descanso"
+},
+"cmonte|2025-12-25": {
+"tipo": "descanso"
+},
+"ctorres|2025-12-01": {
+"tipo": "descanso"
+},
+"ctorres|2025-12-02": {
+"tipo": "descanso"
+},
+"ctorres|2025-12-07": {
+"tipo": "descanso"
+},
+"ctorres|2025-12-09": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"ctorres|2025-12-10": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "16:00"
+},
+"ctorres|2025-12-11": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2025-12-12": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "17:00"
+},
+"ctorres|2025-12-13": {
+"tipo": "manana",
+"ini": "06:00",
+"fin": "15:00"
+},
+"ctorres|2025-12-15": {
+"tipo": "descanso"
+},
+"ctorres|2025-12-16": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"ctorres|2025-12-17": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2025-12-18": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2025-12-19": {
+"tipo": "descanso"
+},
+"ctorres|2025-12-20": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2025-12-21": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2025-12-22": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
+},
+"ctorres|2025-12-23": {
+"tipo": "descanso"
+},
+"ctorres|2025-12-24": {
+"tipo": "descanso"
+},
+"ctorres|2025-12-25": {
+"tipo": "descanso"
+},
+"maribel|2025-12-02": {
+"tipo": "descanso"
+},
+"maribel|2025-12-03": {
+"tipo": "descanso"
+},
+"maribel|2025-12-04": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2025-12-05": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2025-12-06": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2025-12-07": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2025-12-08": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2025-12-09": {
+"tipo": "descanso"
+},
+"maribel|2025-12-15": {
+"tipo": "descanso"
+},
+"maribel|2025-12-16": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2025-12-17": {
+"tipo": "descanso"
+},
+"maribel|2025-12-18": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2025-12-19": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2025-12-20": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2025-12-21": {
+"tipo": "descanso"
+},
+"maribel|2025-12-22": {
+"tipo": "descanso"
+},
+"maribel|2025-12-23": {
+"tipo": "tarde",
+"ini": "07:00",
+"fin": "cierre"
+},
+"maribel|2025-12-24": {
+"tipo": "descanso"
+},
+"maribel|2025-12-25": {
+"tipo": "descanso"
+},
+"kelly|2025-12-01": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"kelly|2025-12-02": {
+"tipo": "descanso"
+},
+"kelly|2025-12-04": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2025-12-05": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"kelly|2025-12-07": {
+"tipo": "descanso"
+},
+"kelly|2025-12-08": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2025-12-09": {
+"tipo": "descanso"
+},
+"kelly|2025-12-12": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"kelly|2025-12-13": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "17:00"
+},
+"kelly|2025-12-14": {
+"tipo": "descanso"
+},
+"kelly|2025-12-15": {
+"tipo": "descanso"
+},
+"kelly|2025-12-16": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2025-12-17": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2025-12-18": {
+"tipo": "descanso"
+},
+"kelly|2025-12-19": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2025-12-20": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2025-12-21": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2025-12-22": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2025-12-23": {
+"tipo": "descanso"
+},
+"kelly|2025-12-24": {
+"tipo": "descanso"
+},
+"kelly|2025-12-25": {
+"tipo": "descanso"
+},
+"diego|2025-12-01": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2025-12-02": {
+"tipo": "descanso"
+},
+"diego|2025-12-03": {
+"tipo": "descanso"
+},
+"diego|2025-12-04": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2025-12-05": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2025-12-08": {
+"tipo": "descanso"
+},
+"diego|2025-12-09": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2025-12-10": {
+"tipo": "descanso"
+},
+"diego|2025-12-14": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "17:00"
+},
+"diego|2025-12-15": {
+"tipo": "descanso"
+},
+"diego|2025-12-16": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"diego|2025-12-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2025-12-18": {
+"tipo": "manana",
+"ini": "08:30",
+"fin": "17:00"
+},
+"diego|2025-12-19": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2025-12-20": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2025-12-21": {
+"tipo": "descanso"
+},
+"diego|2025-12-22": {
+"tipo": "descanso"
+},
+"diego|2025-12-23": {
+"tipo": "tarde",
+"ini": "07:00",
+"fin": "cierre"
+},
+"diego|2025-12-24": {
+"tipo": "descanso"
+},
+"diego|2025-12-25": {
+"tipo": "descanso"
+},
+"deisy|2025-12-01": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2025-12-02": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"deisy|2025-12-03": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"deisy|2025-12-04": {
+"tipo": "descanso"
+},
+"deisy|2025-12-05": {
+"tipo": "descanso"
+},
+"deisy|2025-12-06": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2025-12-07": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"deisy|2025-12-08": {
+"tipo": "descanso"
+},
+"deisy|2025-12-09": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"deisy|2025-12-10": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"deisy|2025-12-12": {
+"tipo": "descanso"
+},
+"deisy|2025-12-13": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "17:00"
+},
+"deisy|2025-12-15": {
+"tipo": "descanso"
+},
+"deisy|2025-12-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2025-12-17": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"deisy|2025-12-18": {
+"tipo": "descanso"
+},
+"deisy|2025-12-19": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2025-12-20": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2025-12-21": {
+"tipo": "descanso"
+},
+"deisy|2025-12-22": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"deisy|2025-12-23": {
+"tipo": "descanso"
+},
+"deisy|2025-12-24": {
+"tipo": "descanso"
+},
+"deisy|2025-12-25": {
+"tipo": "descanso"
+},
+"daniela|2025-12-01": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2025-12-02": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2025-12-03": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2025-12-04": {
+"tipo": "descanso"
+},
+"daniela|2025-12-05": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2025-12-06": {
+"tipo": "descanso"
+},
+"daniela|2025-12-07": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2025-12-08": {
+"tipo": "descanso"
+},
+"daniela|2025-12-09": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2025-12-10": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2025-12-11": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2025-12-12": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2025-12-13": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "17:00"
+},
+"daniela|2025-12-14": {
+"tipo": "descanso"
+},
+"daniela|2025-12-15": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2025-12-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2025-12-17": {
+"tipo": "descanso"
+},
+"daniela|2025-12-18": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2025-12-19": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2025-12-21": {
+"tipo": "descanso"
+},
+"daniela|2025-12-22": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2025-12-23": {
+"tipo": "tarde",
+"ini": "07:00",
+"fin": "cierre"
+},
+"daniela|2025-12-24": {
+"tipo": "descanso"
+},
+"daniela|2025-12-25": {
+"tipo": "descanso"
+},
+"nicolas|2025-12-01": {
+"tipo": "descanso"
+},
+"nicolas|2025-12-04": {
+"tipo": "descanso"
+},
+"nicolas|2025-12-05": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2025-12-06": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2025-12-08": {
+"tipo": "descanso"
+},
+"nicolas|2025-12-10": {
+"tipo": "descanso"
+},
+"nicolas|2025-12-11": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"nicolas|2025-12-15": {
+"tipo": "descanso"
+},
+"nicolas|2025-12-16": {
+"tipo": "descanso"
+},
+"nicolas|2025-12-17": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2025-12-18": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2025-12-19": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2025-12-20": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2025-12-21": {
+"tipo": "descanso"
+},
+"nicolas|2025-12-22": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2025-12-23": {
+"tipo": "tarde",
+"ini": "07:00",
+"fin": "cierre"
+},
+"nicolas|2025-12-24": {
+"tipo": "descanso"
+},
+"nicolas|2025-12-25": {
+"tipo": "descanso"
+},
+"shean|2025-12-02": {
+"tipo": "descanso"
+},
+"shean|2025-12-03": {
+"tipo": "descanso"
+},
+"shean|2025-12-08": {
+"tipo": "descanso"
+},
+"shean|2025-12-09": {
+"tipo": "descanso"
+},
+"shean|2025-12-10": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2025-12-11": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2025-12-15": {
+"tipo": "descanso"
+},
+"shean|2025-12-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"shean|2025-12-17": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2025-12-18": {
+"tipo": "descanso"
+},
+"shean|2025-12-19": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2025-12-20": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2025-12-21": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2025-12-22": {
+"tipo": "descanso"
+},
+"shean|2025-12-23": {
+"tipo": "descanso"
+},
+"shean|2025-12-24": {
+"tipo": "descanso"
+},
+"shean|2025-12-25": {
+"tipo": "descanso"
+},
+"nicolle|2025-12-01": {
+"tipo": "descanso"
+},
+"nicolle|2025-12-02": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"nicolle|2025-12-03": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolle|2025-12-04": {
+"tipo": "vacaciones"
+},
+"nicolle|2025-12-05": {
+"tipo": "vacaciones"
+},
+"nicolle|2025-12-06": {
+"tipo": "vacaciones"
+},
+"nicolle|2025-12-07": {
+"tipo": "descanso"
+},
+"nicolle|2025-12-09": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"nicolle|2025-12-10": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "16:00"
+},
+"nicolle|2025-12-11": {
+"tipo": "descanso"
+},
+"nicolle|2025-12-14": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "17:00"
+},
+"nicolle|2025-12-15": {
+"tipo": "descanso"
+},
+"nicolle|2025-12-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"nicolle|2025-12-17": {
+"tipo": "descanso"
+},
+"nicolle|2025-12-18": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"nicolle|2025-12-19": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"nicolle|2025-12-20": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"nicolle|2025-12-21": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"nicolle|2025-12-22": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"nicolle|2025-12-23": {
+"tipo": "descanso"
+},
+"nicolle|2025-12-24": {
+"tipo": "descanso"
+},
+"nicolle|2025-12-25": {
+"tipo": "descanso"
+},
+"santiago|2025-12-07": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"cmonte|2025-12-26": {
+"tipo": "descanso"
+},
+"cmonte|2025-12-27": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2025-12-28": {
+"tipo": "manana",
+"ini": "12:00",
+"fin": "20:00"
+},
+"cmonte|2025-12-29": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"cmonte|2025-12-30": {
+"tipo": "manana",
+"ini": "12:00",
+"fin": "20:00"
+},
+"cmonte|2025-12-31": {
+"tipo": "manana",
+"ini": "12:00",
+"fin": "22:00"
+},
+"cmonte|2026-01-01": {
+"tipo": "descanso"
+},
+"cmonte|2026-01-02": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-01-03": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"cmonte|2026-01-04": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"cmonte|2026-01-05": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-01-06": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-01-07": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-01-08": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"cmonte|2026-01-09": {
+"tipo": "descanso"
+},
+"cmonte|2026-01-10": {
+"tipo": "descanso"
+},
+"cmonte|2026-01-11": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"cmonte|2026-01-12": {
+"tipo": "vacaciones"
+},
+"cmonte|2026-01-13": {
+"tipo": "vacaciones"
+},
+"cmonte|2026-01-14": {
+"tipo": "vacaciones"
+},
+"cmonte|2026-01-15": {
+"tipo": "descanso"
+},
+"cmonte|2026-01-16": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
+},
+"cmonte|2026-01-17": {
+"tipo": "descanso"
+},
+"cmonte|2026-01-18": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"cmonte|2026-01-19": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-01-20": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-01-21": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-01-22": {
+"tipo": "descanso"
+},
+"cmonte|2026-01-23": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"cmonte|2026-01-24": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"cmonte|2026-01-25": {
+"tipo": "descanso"
+},
+"ctorres|2025-12-26": {
+"tipo": "tarde",
+"ini": "13:00",
+"fin": "cierre"
+},
+"ctorres|2025-12-27": {
+"tipo": "manana",
+"ini": "12:00",
+"fin": "20:00"
+},
+"ctorres|2025-12-28": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2025-12-29": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2025-12-30": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2025-12-31": {
+"tipo": "tarde",
+"ini": "17:00",
+"fin": "cierre"
+},
+"ctorres|2026-01-01": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-01-02": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-01-03": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-01-04": {
+"tipo": "descanso"
+},
+"ctorres|2026-01-05": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-01-06": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-01-07": {
+"tipo": "descanso"
+},
+"ctorres|2026-01-08": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-01-09": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-01-10": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-01-11": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-01-12": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-01-13": {
+"tipo": "tarde",
+"ini": "10:00",
+"fin": "cierre"
+},
+"ctorres|2026-01-14": {
+"tipo": "descanso"
+},
+"ctorres|2026-01-15": {
+"tipo": "descanso"
+},
+"ctorres|2026-01-17": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-01-18": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-01-19": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-01-20": {
+"tipo": "descanso"
+},
+"ctorres|2026-01-21": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"ctorres|2026-01-22": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-01-23": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-01-24": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-01-25": {
+"tipo": "descanso"
+},
+"maribel|2025-12-26": {
+"tipo": "descanso"
+},
+"maribel|2025-12-27": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2025-12-28": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2025-12-29": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2025-12-30": {
+"tipo": "manana",
+"ini": "06:30",
+"fin": "14:30"
+},
+"maribel|2025-12-31": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-01-01": {
+"tipo": "manana",
+"ini": "07:30",
+"fin": "15:30"
+},
+"maribel|2026-01-02": {
+"tipo": "descanso"
+},
+"maribel|2026-01-03": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-01-04": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-01-05": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-01-06": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-01-07": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-01-08": {
+"tipo": "descanso"
+},
+"maribel|2026-01-09": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-01-10": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-01-11": {
+"tipo": "descanso"
+},
+"maribel|2026-01-12": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-01-13": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-01-14": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-01-15": {
+"tipo": "descanso"
+},
+"maribel|2026-01-16": {
+"tipo": "descanso"
+},
+"maribel|2026-01-17": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-01-18": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-01-19": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-01-20": {
+"tipo": "tarde",
+"ini": "07:00",
+"fin": "cierre"
+},
+"maribel|2026-01-21": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"maribel|2026-01-22": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-01-23": {
+"tipo": "descanso"
+},
+"maribel|2026-01-24": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-01-25": {
+"tipo": "tarde",
+"ini": "09:00",
+"fin": "cierre"
+},
+"kelly|2025-12-26": {
+"tipo": "manana",
+"ini": "07:30",
+"fin": "15:30"
+},
+"kelly|2025-12-27": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2025-12-28": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2025-12-29": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2025-12-30": {
+"tipo": "manana",
+"ini": "06:00",
+"fin": "14:00"
+},
+"kelly|2025-12-31": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-01-01": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-01-02": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2026-01-03": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-01-04": {
+"tipo": "descanso"
+},
+"kelly|2026-01-05": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
+},
+"kelly|2026-01-06": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2026-01-07": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2026-01-08": {
+"tipo": "descanso"
+},
+"kelly|2026-01-09": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2026-01-10": {
+"tipo": "descanso"
+},
+"kelly|2026-01-11": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2026-01-12": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-01-13": {
+"tipo": "descanso"
+},
+"kelly|2026-01-14": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-01-15": {
+"tipo": "descanso"
+},
+"kelly|2026-01-16": {
+"tipo": "descanso"
+},
+"kelly|2026-01-17": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2026-01-18": {
+"tipo": "descanso"
+},
+"kelly|2026-01-19": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-01-20": {
+"tipo": "descanso"
+},
+"kelly|2026-01-21": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"kelly|2026-01-22": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2026-01-23": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-01-24": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2026-01-25": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"diego|2025-12-26": {
+"tipo": "descanso"
+},
+"diego|2025-12-27": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"diego|2025-12-28": {
+"tipo": "manana",
+"ini": "09:30",
+"fin": "17:30"
+},
+"diego|2025-12-29": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2025-12-30": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "18:00"
+},
+"diego|2025-12-31": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "18:00"
+},
+"diego|2026-01-01": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-01-02": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-01-03": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-01-04": {
+"tipo": "descanso"
+},
+"diego|2026-01-05": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-01-06": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-01-07": {
+"tipo": "manana",
+"ini": "07:30",
+"fin": "16:00"
+},
+"diego|2026-01-08": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-01-09": {
+"tipo": "descanso"
+},
+"diego|2026-01-10": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-01-11": {
+"tipo": "descanso"
+},
+"diego|2026-01-12": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-01-13": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-01-14": {
+"tipo": "descanso"
+},
+"diego|2026-01-16": {
+"tipo": "descanso"
+},
+"diego|2026-01-17": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-01-18": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"diego|2026-01-19": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-01-20": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-01-22": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-01-23": {
+"tipo": "descanso"
+},
+"diego|2026-01-24": {
+"tipo": "manana",
+"ini": "07:30",
+"fin": "16:00"
+},
+"diego|2026-01-25": {
+"tipo": "tarde",
+"ini": "09:00",
+"fin": "cierre"
+},
+"deisy|2025-12-26": {
+"tipo": "manana",
+"ini": "08:30",
+"fin": "16:30"
+},
+"deisy|2025-12-27": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"deisy|2025-12-28": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2025-12-29": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"deisy|2025-12-30": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"deisy|2025-12-31": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"deisy|2026-01-01": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"deisy|2026-01-02": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"deisy|2026-01-03": {
+"tipo": "descanso"
+},
+"deisy|2026-01-04": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-01-05": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-01-06": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-01-07": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-01-08": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-01-09": {
+"tipo": "descanso"
+},
+"deisy|2026-01-10": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-01-11": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"deisy|2026-01-12": {
+"tipo": "descanso"
+},
+"deisy|2026-01-13": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"deisy|2026-01-14": {
+"tipo": "descanso"
+},
+"deisy|2026-01-15": {
+"tipo": "descanso"
+},
+"deisy|2026-01-16": {
+"tipo": "descanso"
+},
+"deisy|2026-01-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-01-18": {
+"tipo": "descanso"
+},
+"deisy|2026-01-19": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-01-20": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"deisy|2026-01-21": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-01-22": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-01-23": {
+"tipo": "manana",
+"ini": "11:00",
+"fin": "19:00"
+},
+"deisy|2026-01-24": {
+"tipo": "descanso"
+},
+"deisy|2026-01-25": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"daniela|2025-12-26": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2025-12-27": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"daniela|2025-12-28": {
+"tipo": "descanso"
+},
+"daniela|2025-12-29": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2025-12-30": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2025-12-31": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"daniela|2026-01-01": {
+"tipo": "descanso"
+},
+"daniela|2026-01-02": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-01-03": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-01-04": {
+"tipo": "descanso"
+},
+"daniela|2026-01-05": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"daniela|2026-01-06": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-01-07": {
+"tipo": "descanso"
+},
+"daniela|2026-01-08": {
+"tipo": "manana",
+"ini": "08:30",
+"fin": "16:30"
+},
+"daniela|2026-01-09": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-01-10": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-01-11": {
+"tipo": "descanso"
+},
+"daniela|2026-01-12": {
+"tipo": "descanso"
+},
+"daniela|2026-01-13": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-01-14": {
+"tipo": "descanso"
+},
+"daniela|2026-01-15": {
+"tipo": "descanso"
+},
+"daniela|2026-01-18": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"daniela|2026-01-19": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"daniela|2026-01-20": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-01-21": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-01-22": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-01-23": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-01-24": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-01-25": {
+"tipo": "descanso"
+},
+"nicolas|2025-12-26": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2025-12-27": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2025-12-28": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2025-12-29": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2025-12-30": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2025-12-31": {
+"tipo": "tarde",
+"ini": "17:00",
+"fin": "cierre"
+},
+"nicolas|2026-01-01": {
+"tipo": "descanso"
+},
+"nicolas|2026-01-02": {
+"tipo": "vacaciones"
+},
+"nicolas|2026-01-03": {
+"tipo": "vacaciones"
+},
+"nicolas|2026-01-04": {
+"tipo": "vacaciones"
+},
+"nicolas|2026-01-05": {
+"tipo": "vacaciones"
+},
+"nicolas|2026-01-06": {
+"tipo": "vacaciones"
+},
+"nicolas|2026-01-07": {
+"tipo": "vacaciones"
+},
+"nicolas|2026-01-08": {
+"tipo": "vacaciones"
+},
+"nicolas|2026-01-09": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-01-10": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-01-11": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-01-12": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-01-13": {
+"tipo": "descanso"
+},
+"nicolas|2026-01-14": {
+"tipo": "descanso"
+},
+"nicolas|2026-01-15": {
+"tipo": "descanso"
+},
+"nicolas|2026-01-16": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"nicolas|2026-01-17": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-01-18": {
+"tipo": "descanso"
+},
+"nicolas|2026-01-19": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-01-20": {
+"tipo": "descanso"
+},
+"nicolas|2026-01-21": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"nicolas|2026-01-22": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-01-23": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-01-24": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-01-25": {
+"tipo": "tarde",
+"ini": "09:00",
+"fin": "cierre"
+},
+"shean|2025-12-26": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2025-12-27": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2025-12-28": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2025-12-29": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2025-12-30": {
+"tipo": "manana",
+"ini": "14:00",
+"fin": "15:00"
+},
+"shean|2025-12-31": {
+"tipo": "tarde",
+"ini": "17:00",
+"fin": "cierre"
+},
+"shean|2026-01-01": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-01-02": {
+"tipo": "descanso"
+},
+"shean|2026-01-03": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-01-04": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-01-05": {
+"tipo": "descanso"
+},
+"shean|2026-01-06": {
+"tipo": "manana",
+"ini": "05:40",
+"fin": "14:00"
+},
+"shean|2026-01-07": {
+"tipo": "manana",
+"ini": "05:40",
+"fin": "14:00"
+},
+"shean|2026-01-08": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-01-09": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-01-10": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-01-11": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-01-12": {
+"tipo": "descanso"
+},
+"shean|2026-01-13": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-01-14": {
+"tipo": "descanso"
+},
+"shean|2026-01-15": {
+"tipo": "descanso"
+},
+"shean|2026-01-16": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-01-17": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-01-18": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-01-19": {
+"tipo": "descanso"
+},
+"shean|2026-01-20": {
+"tipo": "tarde",
+"ini": "07:00",
+"fin": "cierre"
+},
+"shean|2026-01-21": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"shean|2026-01-22": {
+"tipo": "descanso"
+},
+"shean|2026-01-24": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-01-25": {
+"tipo": "descanso"
+},
+"cmonte|2026-01-26": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-01-27": {
+"tipo": "descanso"
+},
+"cmonte|2026-01-28": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-01-29": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-01-30": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-01-31": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-02-01": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-02-02": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-02-03": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-02-04": {
+"tipo": "descanso"
+},
+"cmonte|2026-02-05": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"cmonte|2026-02-06": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-02-07": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-02-08": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"cmonte|2026-02-09": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-02-10": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-02-11": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"cmonte|2026-02-12": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-02-13": {
+"tipo": "descanso"
+},
+"cmonte|2026-02-14": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-02-15": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"cmonte|2026-02-16": {
+"tipo": "manana",
+"ini": "12:00",
+"fin": "20:00"
+},
+"cmonte|2026-02-17": {
+"tipo": "manana",
+"ini": "11:00",
+"fin": "19:00"
+},
+"cmonte|2026-02-18": {
+"tipo": "manana",
+"ini": "11:00",
+"fin": "19:00"
+},
+"cmonte|2026-02-19": {
+"tipo": "descanso"
+},
+"cmonte|2026-02-20": {
+"tipo": "manana",
+"ini": "12:00",
+"fin": "20:00"
+},
+"ctorres|2026-01-26": {
+"tipo": "descanso"
+},
+"ctorres|2026-01-27": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"ctorres|2026-01-28": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"ctorres|2026-01-29": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"ctorres|2026-01-30": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-01-31": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-02-01": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-02-02": {
+"tipo": "descanso"
+},
+"ctorres|2026-02-03": {
+"tipo": "descanso"
+},
+"ctorres|2026-02-04": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-02-05": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-02-06": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-02-07": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-02-08": {
+"tipo": "descanso"
+},
+"ctorres|2026-02-09": {
+"tipo": "tarde",
+"ini": "07:00",
+"fin": "cierre"
+},
+"ctorres|2026-02-10": {
+"tipo": "descanso"
+},
+"ctorres|2026-02-11": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-02-12": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-02-13": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-02-14": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-02-15": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
+},
+"ctorres|2026-02-16": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-02-17": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-02-18": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"ctorres|2026-02-19": {
+"tipo": "tarde",
+"ini": "07:00",
+"fin": "cierre"
+},
+"ctorres|2026-02-20": {
+"tipo": "descanso"
+},
+"maribel|2026-01-26": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"maribel|2026-01-27": {
+"tipo": "descanso"
+},
+"maribel|2026-01-28": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"maribel|2026-01-29": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"maribel|2026-01-30": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"maribel|2026-01-31": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-02-01": {
+"tipo": "descanso"
+},
+"maribel|2026-02-02": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-02-03": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-02-04": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-02-05": {
+"tipo": "descanso"
+},
+"maribel|2026-02-06": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-02-07": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-02-08": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-02-09": {
+"tipo": "descanso"
+},
+"maribel|2026-02-10": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"maribel|2026-02-11": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-02-12": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-02-13": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-02-14": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-02-15": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-02-16": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-02-17": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-02-18": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-02-19": {
+"tipo": "descanso"
+},
+"maribel|2026-02-20": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2026-01-26": {
+"tipo": "descanso"
+},
+"kelly|2026-01-27": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"kelly|2026-01-28": {
+"tipo": "vacaciones"
+},
+"kelly|2026-01-29": {
+"tipo": "vacaciones"
+},
+"kelly|2026-01-30": {
+"tipo": "vacaciones"
+},
+"kelly|2026-01-31": {
+"tipo": "vacaciones"
+},
+"kelly|2026-02-01": {
+"tipo": "vacaciones"
+},
+"kelly|2026-02-02": {
+"tipo": "vacaciones"
+},
+"kelly|2026-02-03": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2026-02-04": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-02-05": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2026-02-06": {
+"tipo": "descanso"
+},
+"kelly|2026-02-07": {
+"tipo": "manana",
+"ini": "12:00",
+"fin": "20:00"
+},
+"kelly|2026-02-08": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2026-02-09": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"kelly|2026-02-10": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"kelly|2026-02-11": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2026-02-12": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-02-13": {
+"tipo": "descanso"
+},
+"kelly|2026-02-14": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2026-02-15": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2026-02-16": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-02-17": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-02-18": {
+"tipo": "manana",
+"ini": "11:00",
+"fin": "19:00"
+},
+"kelly|2026-02-19": {
+"tipo": "descanso"
+},
+"kelly|2026-02-20": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"diego|2026-01-26": {
+"tipo": "descanso"
+},
+"diego|2026-01-27": {
+"tipo": "descanso"
+},
+"diego|2026-01-28": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-01-29": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-01-30": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"diego|2026-01-31": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-02-01": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-02-02": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-02-03": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-02-04": {
+"tipo": "descanso"
+},
+"diego|2026-02-05": {
+"tipo": "vacaciones"
+},
+"diego|2026-02-06": {
+"tipo": "vacaciones"
+},
+"diego|2026-02-07": {
+"tipo": "vacaciones"
+},
+"diego|2026-02-08": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-02-09": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-02-10": {
+"tipo": "descanso"
+},
+"diego|2026-02-11": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "17:00"
+},
+"diego|2026-02-12": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-02-13": {
+"tipo": "vacaciones"
+},
+"diego|2026-02-14": {
+"tipo": "vacaciones"
+},
+"diego|2026-02-15": {
+"tipo": "vacaciones"
+},
+"diego|2026-02-16": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"diego|2026-02-17": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"diego|2026-02-18": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-02-19": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-02-20": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "15:00"
+},
+"deisy|2026-01-26": {
+"tipo": "descanso"
+},
+"deisy|2026-01-27": {
+"tipo": "vacaciones"
+},
+"deisy|2026-01-28": {
+"tipo": "vacaciones"
+},
+"deisy|2026-01-29": {
+"tipo": "vacaciones"
+},
+"deisy|2026-01-30": {
+"tipo": "vacaciones"
+},
+"deisy|2026-01-31": {
+"tipo": "vacaciones"
+},
+"deisy|2026-02-01": {
+"tipo": "vacaciones"
+},
+"deisy|2026-02-02": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"deisy|2026-02-03": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-02-04": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-02-05": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-02-06": {
+"tipo": "descanso"
+},
+"deisy|2026-02-07": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"deisy|2026-02-08": {
+"tipo": "descanso"
+},
+"deisy|2026-02-09": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-02-10": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-02-11": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"deisy|2026-02-12": {
+"tipo": "descanso"
+},
+"deisy|2026-02-13": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-02-14": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-02-15": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"deisy|2026-02-16": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"deisy|2026-02-17": {
+"tipo": "manana",
+"ini": "11:00",
+"fin": "19:00"
+},
+"deisy|2026-02-18": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"deisy|2026-02-19": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"deisy|2026-02-20": {
+"tipo": "descanso"
+},
+"daniela|2026-01-26": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-01-27": {
+"tipo": "descanso"
+},
+"daniela|2026-01-28": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-01-29": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-01-30": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-01-31": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-02-01": {
+"tipo": "descanso"
+},
+"daniela|2026-02-02": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"daniela|2026-02-03": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-02-04": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-02-05": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-02-06": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-02-07": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-02-08": {
+"tipo": "descanso"
+},
+"daniela|2026-02-09": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-02-10": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-02-11": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-02-12": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-02-13": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-02-14": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-02-15": {
+"tipo": "descanso"
+},
+"daniela|2026-02-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-02-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-02-18": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"daniela|2026-02-19": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-02-20": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "15:00"
+},
+"nicolas|2026-01-26": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"nicolas|2026-01-27": {
+"tipo": "descanso"
+},
+"nicolas|2026-01-28": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"nicolas|2026-01-29": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"nicolas|2026-01-30": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"nicolas|2026-01-31": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-02-01": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-02-02": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-02-03": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-02-04": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-02-05": {
+"tipo": "descanso"
+},
+"nicolas|2026-02-06": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-02-07": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-02-08": {
+"tipo": "descanso"
+},
+"nicolas|2026-02-09": {
+"tipo": "tarde",
+"ini": "07:00",
+"fin": "cierre"
+},
+"nicolas|2026-02-10": {
+"tipo": "descanso"
+},
+"nicolas|2026-02-11": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-02-12": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"nicolas|2026-02-13": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-02-14": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-02-15": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-02-16": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-02-17": {
+"tipo": "manana",
+"ini": "11:00",
+"fin": "19:00"
+},
+"nicolas|2026-02-18": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-02-19": {
+"tipo": "descanso"
+},
+"nicolas|2026-02-20": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-01-26": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"shean|2026-01-27": {
+"tipo": "descanso"
+},
+"shean|2026-01-28": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"shean|2026-01-29": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"shean|2026-01-30": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-01-31": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-02-01": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-02-02": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-02-03": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-02-04": {
+"tipo": "descanso"
+},
+"shean|2026-02-05": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-02-06": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-02-07": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-02-08": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-02-09": {
+"tipo": "descanso"
+},
+"shean|2026-02-10": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"shean|2026-02-11": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-02-12": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-02-13": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-02-14": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-02-15": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-02-16": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-02-17": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-02-18": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"shean|2026-02-19": {
+"tipo": "tarde",
+"ini": "07:00",
+"fin": "cierre"
+},
+"shean|2026-02-20": {
+"tipo": "descanso"
+},
+"santiago|2026-02-04": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"santiago|2026-02-05": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"santiago|2026-02-06": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"santiago|2026-02-07": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"santiago|2026-02-08": {
+"tipo": "descanso"
+},
+"santiago|2026-02-14": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"santiago|2026-02-15": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"santiago|2026-02-16": {
+"tipo": "tarde",
+"ini": "15:00",
+"fin": "cierre"
+},
+"santiago|2026-02-20": {
+"tipo": "descanso"
+},
+"cmonte|2026-02-21": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"cmonte|2026-02-22": {
+"tipo": "descanso"
+},
+"cmonte|2026-02-23": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-02-24": {
+"tipo": "descanso"
+},
+"cmonte|2026-02-25": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"cmonte|2026-02-26": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-02-27": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"cmonte|2026-02-28": {
+"tipo": "manana",
+"ini": "06:30",
+"fin": "15:00"
+},
+"cmonte|2026-03-01": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"cmonte|2026-03-02": {
+"tipo": "descanso"
+},
+"cmonte|2026-03-03": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-03-04": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"cmonte|2026-03-05": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-03-06": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"cmonte|2026-03-07": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-03-08": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"cmonte|2026-03-09": {
+"tipo": "descanso"
+},
+"cmonte|2026-03-10": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"cmonte|2026-03-11": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-03-12": {
+"tipo": "descanso"
+},
+"cmonte|2026-03-13": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-03-14": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-03-15": {
+"tipo": "descanso"
+},
+"cmonte|2026-03-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-03-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-03-18": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-03-19": {
+"tipo": "descanso"
+},
+"cmonte|2026-03-20": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-03-21": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-03-22": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-03-23": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-03-24": {
+"tipo": "descanso"
+},
+"cmonte|2026-03-25": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-03-26": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-03-27": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-03-28": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"cmonte|2026-03-29": {
+"tipo": "descanso"
+},
+"cmonte|2026-03-30": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-03-31": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-04-01": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-04-02": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-04-03": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-04-04": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-04-05": {
+"tipo": "descanso"
+},
+"cmonte|2026-04-06": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-04-07": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-04-08": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-04-09": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-04-10": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"ctorres|2026-02-21": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-02-22": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-02-23": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-02-24": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-02-25": {
+"tipo": "descanso"
+},
+"ctorres|2026-02-26": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
+},
+"ctorres|2026-02-27": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-02-28": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-03-01": {
+"tipo": "descanso"
+},
+"ctorres|2026-03-02": {
+"tipo": "descanso"
+},
+"ctorres|2026-03-03": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
+},
+"ctorres|2026-03-04": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-03-05": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-03-06": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"ctorres|2026-03-07": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-03-08": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-03-09": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-03-10": {
+"tipo": "descanso"
+},
+"ctorres|2026-03-11": {
+"tipo": "descanso"
+},
+"ctorres|2026-03-12": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"ctorres|2026-03-13": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"ctorres|2026-03-14": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-03-15": {
+"tipo": "descanso"
+},
+"ctorres|2026-03-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"ctorres|2026-03-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"ctorres|2026-03-18": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"ctorres|2026-03-19": {
+"tipo": "descanso"
+},
+"ctorres|2026-03-20": {
+"tipo": "tarde",
+"ini": "11:00",
+"fin": "cierre"
+},
+"ctorres|2026-03-21": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"ctorres|2026-03-22": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-03-23": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-03-24": {
+"tipo": "descanso"
+},
+"ctorres|2026-03-25": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"ctorres|2026-03-26": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
+},
+"ctorres|2026-03-27": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-03-28": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-03-29": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-03-30": {
+"tipo": "descanso"
+},
+"ctorres|2026-03-31": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-04-01": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-04-02": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-04-03": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-04-04": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-04-05": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-04-06": {
+"tipo": "descanso"
+},
+"ctorres|2026-04-07": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"ctorres|2026-04-08": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"ctorres|2026-04-09": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-04-10": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-02-21": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-02-22": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-02-24": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"maribel|2026-02-25": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"maribel|2026-02-26": {
+"tipo": "descanso"
+},
+"maribel|2026-02-27": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-02-28": {
+"tipo": "manana",
+"ini": "06:30",
+"fin": "15:00"
+},
+"maribel|2026-03-01": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-03-02": {
+"tipo": "tarde",
+"ini": "07:00",
+"fin": "cierre"
+},
+"maribel|2026-03-03": {
+"tipo": "descanso"
+},
+"maribel|2026-03-04": {
+"tipo": "descanso"
+},
+"maribel|2026-03-05": {
+"tipo": "manana",
+"ini": "14:00",
+"fin": "17:00"
+},
+"maribel|2026-03-06": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-03-07": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-03-08": {
+"tipo": "descanso"
+},
+"maribel|2026-03-09": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-03-10": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-03-11": {
+"tipo": "descanso"
+},
+"maribel|2026-03-12": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"maribel|2026-03-13": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"maribel|2026-03-14": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-03-15": {
+"tipo": "tarde",
+"ini": "07:00",
+"fin": "cierre"
+},
+"maribel|2026-03-16": {
+"tipo": "descanso"
+},
+"maribel|2026-03-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"maribel|2026-03-18": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"maribel|2026-03-19": {
+"tipo": "descanso"
+},
+"maribel|2026-03-20": {
+"tipo": "descanso"
+},
+"maribel|2026-03-21": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-03-22": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-03-23": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-03-24": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
+},
+"maribel|2026-03-25": {
+"tipo": "descanso"
+},
+"maribel|2026-03-26": {
+"tipo": "descanso"
+},
+"maribel|2026-03-27": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-03-28": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-03-29": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-03-30": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-03-31": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-04-01": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-04-02": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-04-03": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-04-04": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-04-05": {
+"tipo": "descanso"
+},
+"maribel|2026-04-06": {
+"tipo": "vacaciones"
+},
+"maribel|2026-04-07": {
+"tipo": "vacaciones"
+},
+"maribel|2026-04-08": {
+"tipo": "vacaciones"
+},
+"maribel|2026-04-09": {
+"tipo": "vacaciones"
+},
+"maribel|2026-04-10": {
+"tipo": "vacaciones"
+},
+"kelly|2026-02-21": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2026-02-22": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2026-02-23": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2026-02-24": {
+"tipo": "descanso"
+},
+"kelly|2026-02-25": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2026-02-27": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2026-02-28": {
+"tipo": "manana",
+"ini": "13:30",
+"fin": "21:30"
+},
+"kelly|2026-03-01": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2026-03-02": {
+"tipo": "descanso"
+},
+"kelly|2026-03-03": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"kelly|2026-03-04": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-03-05": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"kelly|2026-03-06": {
+"tipo": "descanso"
+},
+"kelly|2026-03-07": {
+"tipo": "tarde",
+"ini": "13:45",
+"fin": "cierre"
+},
+"kelly|2026-03-08": {
+"tipo": "descanso"
+},
+"kelly|2026-03-09": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-03-10": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-03-11": {
+"tipo": "descanso"
+},
+"kelly|2026-03-12": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"kelly|2026-03-13": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"kelly|2026-03-14": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-03-15": {
+"tipo": "tarde",
+"ini": "09:00",
+"fin": "cierre"
+},
+"kelly|2026-03-16": {
+"tipo": "descanso"
+},
+"kelly|2026-03-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"kelly|2026-03-18": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"kelly|2026-03-19": {
+"tipo": "descanso"
+},
+"kelly|2026-03-20": {
+"tipo": "tarde",
+"ini": "11:00",
+"fin": "cierre"
+},
+"kelly|2026-03-21": {
+"tipo": "manana",
+"ini": "11:30",
+"fin": "20:30"
+},
+"kelly|2026-03-22": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-03-23": {
+"tipo": "descanso"
+},
+"kelly|2026-03-24": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-03-25": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-03-26": {
+"tipo": "descanso"
+},
+"kelly|2026-03-27": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-03-28": {
+"tipo": "manana",
+"ini": "23:00",
+"fin": "19:00"
+},
+"kelly|2026-03-29": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"kelly|2026-03-30": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2026-03-31": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2026-04-01": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2026-04-02": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2026-04-03": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2026-04-04": {
+"tipo": "descanso"
+},
+"kelly|2026-04-05": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-04-06": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-04-07": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2026-04-08": {
+"tipo": "descanso"
+},
+"kelly|2026-04-09": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-04-10": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"diego|2026-02-21": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-02-22": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-02-23": {
+"tipo": "descanso"
+},
+"diego|2026-02-24": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-02-25": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-02-27": {
+"tipo": "manana",
+"ini": "11:00",
+"fin": "19:00"
+},
+"diego|2026-02-28": {
+"tipo": "manana",
+"ini": "07:45",
+"fin": "16:45"
+},
+"diego|2026-03-01": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-03-02": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-03-03": {
+"tipo": "descanso"
+},
+"diego|2026-03-04": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-03-05": {
+"tipo": "descanso"
+},
+"diego|2026-03-06": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-03-07": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-03-08": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-03-09": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-03-10": {
+"tipo": "descanso"
+},
+"diego|2026-03-11": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "12:00"
+},
+"diego|2026-03-12": {
+"tipo": "descanso"
+},
+"diego|2026-03-13": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-03-14": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-03-15": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-03-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-03-17": {
+"tipo": "descanso"
+},
+"diego|2026-03-18": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "20:00"
+},
+"diego|2026-03-19": {
+"tipo": "descanso"
+},
+"diego|2026-03-20": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-03-21": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-03-22": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-03-23": {
+"tipo": "descanso"
+},
+"diego|2026-03-24": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-03-25": {
+"tipo": "descanso"
+},
+"diego|2026-03-26": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"diego|2026-03-27": {
+"tipo": "manana",
+"ini": "09:30",
+"fin": "17:30"
+},
+"diego|2026-03-28": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-03-29": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-03-30": {
+"tipo": "descanso"
+},
+"diego|2026-03-31": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-04-01": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-04-02": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-04-03": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-04-04": {
+"tipo": "manana",
+"ini": "08:30",
+"fin": "16:30"
+},
+"diego|2026-04-05": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"diego|2026-04-06": {
+"tipo": "descanso"
+},
+"diego|2026-04-07": {
+"tipo": "descanso"
+},
+"diego|2026-04-08": {
+"tipo": "vacaciones"
+},
+"diego|2026-04-09": {
+"tipo": "vacaciones"
+},
+"diego|2026-04-10": {
+"tipo": "vacaciones"
+},
+"deisy|2026-02-21": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"deisy|2026-02-22": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"deisy|2026-02-24": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"deisy|2026-02-25": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"deisy|2026-02-26": {
+"tipo": "descanso"
+},
+"deisy|2026-02-27": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-02-28": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-03-01": {
+"tipo": "descanso"
+},
+"deisy|2026-03-02": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-03-03": {
+"tipo": "descanso"
+},
+"deisy|2026-03-04": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-03-05": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-03-06": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"deisy|2026-03-07": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-03-08": {
+"tipo": "descanso"
+},
+"deisy|2026-03-09": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-03-10": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-03-11": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-03-12": {
+"tipo": "descanso"
+},
+"deisy|2026-03-13": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-03-14": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-03-15": {
+"tipo": "descanso"
+},
+"deisy|2026-03-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-03-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-03-18": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-03-19": {
+"tipo": "descanso"
+},
+"deisy|2026-03-20": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-03-21": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-03-22": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-03-23": {
+"tipo": "descanso"
+},
+"deisy|2026-03-24": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"deisy|2026-03-25": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"deisy|2026-03-26": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"deisy|2026-03-27": {
+"tipo": "descanso"
+},
+"deisy|2026-03-28": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-03-29": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-03-30": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-03-31": {
+"tipo": "descanso"
+},
+"deisy|2026-04-01": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-04-02": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-04-03": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"deisy|2026-04-04": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-04-05": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"deisy|2026-04-06": {
+"tipo": "vacaciones"
+},
+"deisy|2026-04-07": {
+"tipo": "vacaciones"
+},
+"deisy|2026-04-08": {
+"tipo": "vacaciones"
+},
+"deisy|2026-04-09": {
+"tipo": "vacaciones"
+},
+"deisy|2026-04-10": {
+"tipo": "vacaciones"
+},
+"daniela|2026-02-21": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"daniela|2026-02-22": {
+"tipo": "descanso"
+},
+"daniela|2026-02-23": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-02-24": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-02-25": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-02-26": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-02-27": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-02-28": {
+"tipo": "manana",
+"ini": "08:30",
+"fin": "16:30"
+},
+"daniela|2026-03-01": {
+"tipo": "descanso"
+},
+"daniela|2026-03-02": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-03-03": {
+"tipo": "descanso"
+},
+"daniela|2026-03-04": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-03-05": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-03-06": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-03-07": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"daniela|2026-03-08": {
+"tipo": "descanso"
+},
+"daniela|2026-03-09": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-03-10": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-03-11": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-03-12": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-03-13": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-03-14": {
+"tipo": "manana",
+"ini": "00:00",
+"fin": "19:00"
+},
+"daniela|2026-03-15": {
+"tipo": "descanso"
+},
+"daniela|2026-03-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-03-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-03-18": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-03-19": {
+"tipo": "descanso"
+},
+"daniela|2026-03-20": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-03-21": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-03-22": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"daniela|2026-03-23": {
+"tipo": "descanso"
+},
+"daniela|2026-03-24": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-03-25": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-03-26": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"daniela|2026-03-27": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-03-28": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-03-29": {
+"tipo": "descanso"
+},
+"daniela|2026-03-30": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-03-31": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-04-01": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-04-02": {
+"tipo": "manana",
+"ini": "08:30",
+"fin": "16:30"
+},
+"daniela|2026-04-03": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"daniela|2026-04-04": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"daniela|2026-04-05": {
+"tipo": "descanso"
+},
+"daniela|2026-04-06": {
+"tipo": "descanso"
+},
+"daniela|2026-04-07": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"daniela|2026-04-08": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"daniela|2026-04-09": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-04-10": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"nicolas|2026-02-21": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-02-22": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-02-23": {
+"tipo": "descanso"
+},
+"nicolas|2026-02-24": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-02-25": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-02-27": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-02-28": {
+"tipo": "manana",
+"ini": "06:30",
+"fin": "15:00"
+},
+"nicolas|2026-03-01": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-03-02": {
+"tipo": "descanso"
+},
+"nicolas|2026-03-03": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-03-04": {
+"tipo": "descanso"
+},
+"nicolas|2026-03-05": {
+"tipo": "manana",
+"ini": "14:00",
+"fin": "17:00"
+},
+"nicolas|2026-03-06": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-03-07": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-03-08": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-03-09": {
+"tipo": "descanso"
+},
+"nicolas|2026-03-10": {
+"tipo": "descanso"
+},
+"nicolas|2026-03-11": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-03-12": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"nicolas|2026-03-13": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"nicolas|2026-03-14": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-03-15": {
+"tipo": "descanso"
+},
+"nicolas|2026-03-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"nicolas|2026-03-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "14:00"
+},
+"nicolas|2026-03-18": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"nicolas|2026-03-19": {
+"tipo": "descanso"
+},
+"nicolas|2026-03-20": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"nicolas|2026-03-21": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-03-22": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-03-23": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-03-24": {
+"tipo": "descanso"
+},
+"nicolas|2026-03-25": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-03-26": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-03-27": {
+"tipo": "descanso"
+},
+"nicolas|2026-03-28": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-03-29": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-03-30": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-03-31": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-04-01": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-04-02": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-04-03": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-04-04": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-04-05": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-04-06": {
+"tipo": "vacaciones"
+},
+"nicolas|2026-04-07": {
+"tipo": "vacaciones"
+},
+"nicolas|2026-04-08": {
+"tipo": "vacaciones"
+},
+"nicolas|2026-04-09": {
+"tipo": "vacaciones"
+},
+"nicolas|2026-04-10": {
+"tipo": "vacaciones"
+},
+"shean|2026-02-21": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-02-22": {
+"tipo": "descanso"
+},
+"shean|2026-02-23": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-02-24": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-02-25": {
+"tipo": "descanso"
+},
+"shean|2026-02-26": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
+},
+"shean|2026-02-27": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-02-28": {
+"tipo": "tarde",
+"ini": "16:30",
+"fin": "cierre"
+},
+"shean|2026-03-01": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-03-02": {
+"tipo": "tarde",
+"ini": "07:00",
+"fin": "cierre"
+},
+"shean|2026-03-03": {
+"tipo": "descanso"
+},
+"shean|2026-03-04": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-03-05": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-03-06": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"shean|2026-03-07": {
+"tipo": "descanso"
+},
+"shean|2026-03-08": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-03-09": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-03-10": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-03-11": {
+"tipo": "descanso"
+},
+"shean|2026-03-12": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"shean|2026-03-13": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"shean|2026-03-14": {
+"tipo": "descanso"
+},
+"shean|2026-03-15": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-03-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"shean|2026-03-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"shean|2026-03-18": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"shean|2026-03-19": {
+"tipo": "descanso"
+},
+"shean|2026-03-20": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"shean|2026-03-21": {
+"tipo": "descanso"
+},
+"shean|2026-03-22": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-03-23": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-03-24": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-03-25": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-03-26": {
+"tipo": "descanso"
+},
+"shean|2026-03-27": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-03-28": {
+"tipo": "descanso"
+},
+"shean|2026-03-29": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-03-30": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-03-31": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-04-01": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-04-02": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-04-03": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-04-04": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-04-05": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-04-06": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-04-07": {
+"tipo": "descanso"
+},
+"shean|2026-04-08": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-04-09": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-04-10": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolle|2026-04-02": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolle|2026-04-03": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"nicolle|2026-04-04": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"santiago|2026-02-23": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"santiago|2026-03-21": {
+"tipo": "descanso"
+},
+"santiago|2026-03-23": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"santiago|2026-03-27": {
+"tipo": "descanso"
+},
+"santiago|2026-04-02": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"santiago|2026-04-03": {
+"tipo": "manana",
+"ini": "09:30",
+"fin": "17:30"
+},
+"santiago|2026-04-04": {
+"tipo": "descanso"
+},
+"santiago|2026-04-05": {
+"tipo": "descanso"
+},
+"zaira|2026-02-28": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"zaira|2026-03-01": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-03-07": {
+"tipo": "tarde",
+"ini": "13:30",
+"fin": "cierre"
+},
+"zaira|2026-03-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"zaira|2026-03-18": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"zaira|2026-03-21": {
+"tipo": "tarde",
+"ini": "13:00",
+"fin": "cierre"
+},
+"zaira|2026-03-22": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"zaira|2026-03-23": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-03-25": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
+},
+"zaira|2026-03-28": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-03-29": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-03-30": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-04-01": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"zaira|2026-04-02": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"zaira|2026-04-03": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"zaira|2026-04-04": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"zaira|2026-04-05": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"zaira|2026-04-06": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"zaira|2026-04-07": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"zaira|2026-04-08": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"zaira|2026-04-09": {
+"tipo": "descanso"
+},
+"zaira|2026-04-10": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-04-11": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-04-12": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-04-13": {
+"tipo": "descanso"
+},
+"cmonte|2026-04-14": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-04-15": {
+"tipo": "descanso"
+},
+"cmonte|2026-04-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-04-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-04-18": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-04-19": {
+"tipo": "descanso"
+},
+"cmonte|2026-04-20": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-04-21": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-04-22": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-04-23": {
+"tipo": "descanso"
+},
+"cmonte|2026-04-24": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-04-25": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-04-26": {
+"tipo": "descanso"
+},
+"cmonte|2026-04-27": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-04-28": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"cmonte|2026-04-29": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-04-30": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-05-01": {
+"tipo": "descanso"
+},
+"cmonte|2026-05-02": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-05-03": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-05-04": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-05-05": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-05-06": {
+"tipo": "descanso"
+},
+"cmonte|2026-05-07": {
+"tipo": "descanso"
+},
+"cmonte|2026-05-08": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-05-09": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-05-10": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-04-11": {
+"tipo": "tarde",
+"ini": "13:00",
+"fin": "cierre"
+},
+"ctorres|2026-04-12": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-04-13": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-04-14": {
+"tipo": "descanso"
+},
+"ctorres|2026-04-15": {
+"tipo": "descanso"
+},
+"ctorres|2026-04-16": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-04-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"ctorres|2026-04-18": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-04-19": {
+"tipo": "descanso"
+},
+"ctorres|2026-04-20": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-04-21": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"ctorres|2026-04-22": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-04-23": {
+"tipo": "descanso"
+},
+"ctorres|2026-04-24": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-04-25": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-04-26": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-04-27": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"ctorres|2026-04-28": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-04-29": {
+"tipo": "descanso"
+},
+"ctorres|2026-04-30": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-05-01": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-05-02": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-05-03": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-05-04": {
+"tipo": "vacaciones"
+},
+"ctorres|2026-05-05": {
+"tipo": "vacaciones"
+},
+"ctorres|2026-05-06": {
+"tipo": "vacaciones"
+},
+"ctorres|2026-05-07": {
+"tipo": "vacaciones"
+},
+"ctorres|2026-05-08": {
+"tipo": "vacaciones"
+},
+"ctorres|2026-05-09": {
+"tipo": "vacaciones"
+},
+"ctorres|2026-05-10": {
+"tipo": "descanso"
+},
+"maribel|2026-04-11": {
+"tipo": "vacaciones"
+},
+"maribel|2026-04-12": {
+"tipo": "descanso"
+},
+"maribel|2026-04-13": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-04-14": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
+},
+"maribel|2026-04-15": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
+},
+"maribel|2026-04-16": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-04-17": {
+"tipo": "descanso"
+},
+"maribel|2026-04-18": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-04-19": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-04-20": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"maribel|2026-04-21": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"maribel|2026-04-22": {
+"tipo": "descanso"
+},
+"maribel|2026-04-23": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-04-24": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"maribel|2026-04-25": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-04-26": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-04-27": {
+"tipo": "descanso"
+},
+"maribel|2026-04-28": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"maribel|2026-04-29": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-04-30": {
+"tipo": "descanso"
+},
+"maribel|2026-05-01": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-05-02": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-05-03": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-05-04": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-05-05": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-05-06": {
+"tipo": "descanso"
+},
+"maribel|2026-05-07": {
+"tipo": "descanso"
+},
+"maribel|2026-05-08": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-05-09": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-05-10": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-04-11": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2026-04-12": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-04-13": {
+"tipo": "manana",
+"ini": "08:30",
+"fin": "16:30"
+},
+"kelly|2026-04-14": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-04-15": {
+"tipo": "descanso"
+},
+"kelly|2026-04-16": {
+"tipo": "descanso"
+},
+"kelly|2026-04-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"kelly|2026-04-18": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-04-19": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2026-04-20": {
+"tipo": "vacaciones"
+},
+"kelly|2026-04-21": {
+"tipo": "vacaciones"
+},
+"kelly|2026-04-22": {
+"tipo": "vacaciones"
+},
+"kelly|2026-04-23": {
+"tipo": "vacaciones"
+},
+"kelly|2026-04-24": {
+"tipo": "vacaciones"
+},
+"kelly|2026-04-25": {
+"tipo": "vacaciones"
+},
+"kelly|2026-04-26": {
+"tipo": "descanso"
+},
+"kelly|2026-04-27": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-04-28": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2026-04-29": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2026-04-30": {
+"tipo": "descanso"
+},
+"kelly|2026-05-01": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2026-05-02": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2026-05-03": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2026-05-04": {
+"tipo": "vacaciones"
+},
+"kelly|2026-05-05": {
+"tipo": "vacaciones"
+},
+"kelly|2026-05-06": {
+"tipo": "vacaciones"
+},
+"kelly|2026-05-07": {
+"tipo": "vacaciones"
+},
+"kelly|2026-05-08": {
+"tipo": "vacaciones"
+},
+"kelly|2026-05-09": {
+"tipo": "vacaciones"
+},
+"kelly|2026-05-10": {
+"tipo": "descanso"
+},
+"diego|2026-04-11": {
+"tipo": "descanso"
+},
+"diego|2026-04-12": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-04-13": {
+"tipo": "manana",
+"ini": "09:30",
+"fin": "17:30"
+},
+"diego|2026-04-14": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"diego|2026-04-15": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-04-16": {
+"tipo": "descanso"
+},
+"diego|2026-04-17": {
+"tipo": "descanso"
+},
+"diego|2026-04-18": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"diego|2026-04-19": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-04-20": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"diego|2026-04-21": {
+"tipo": "descanso"
+},
+"diego|2026-04-22": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-04-23": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-04-24": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-04-25": {
+"tipo": "manana",
+"ini": "09:30",
+"fin": "17:30"
+},
+"diego|2026-04-26": {
+"tipo": "manana",
+"ini": "09:30",
+"fin": "17:30"
+},
+"diego|2026-04-27": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-04-28": {
+"tipo": "descanso"
+},
+"diego|2026-04-29": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-04-30": {
+"tipo": "manana",
+"ini": "09:30",
+"fin": "17:30"
+},
+"diego|2026-05-01": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-05-02": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-05-03": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-05-04": {
+"tipo": "vacaciones"
+},
+"diego|2026-05-05": {
+"tipo": "vacaciones"
+},
+"diego|2026-05-06": {
+"tipo": "vacaciones"
+},
+"diego|2026-05-07": {
+"tipo": "vacaciones"
+},
+"diego|2026-05-08": {
+"tipo": "vacaciones"
+},
+"diego|2026-05-09": {
+"tipo": "vacaciones"
+},
+"diego|2026-05-10": {
+"tipo": "descanso"
+},
+"deisy|2026-04-11": {
+"tipo": "vacaciones"
+},
+"deisy|2026-04-12": {
+"tipo": "descanso"
+},
+"deisy|2026-04-13": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-04-14": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-04-15": {
+"tipo": "descanso"
+},
+"deisy|2026-04-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-04-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-04-18": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-04-19": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-04-20": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-04-21": {
+"tipo": "descanso"
+},
+"deisy|2026-04-22": {
+"tipo": "descanso"
+},
+"deisy|2026-04-23": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-04-24": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-04-25": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-04-26": {
+"tipo": "descanso"
+},
+"deisy|2026-04-27": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-04-28": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-04-29": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-04-30": {
+"tipo": "descanso"
+},
+"deisy|2026-05-01": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-05-02": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-05-03": {
+"tipo": "manana",
+"ini": "11:00",
+"fin": "19:00"
+},
+"deisy|2026-05-04": {
+"tipo": "descanso"
+},
+"deisy|2026-05-05": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-05-06": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-05-07": {
+"tipo": "descanso"
+},
+"deisy|2026-05-08": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-05-09": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-05-10": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-04-11": {
+"tipo": "manana",
+"ini": "09:30",
+"fin": "17:30"
+},
+"daniela|2026-04-12": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"daniela|2026-04-13": {
+"tipo": "descanso"
+},
+"daniela|2026-04-14": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-04-15": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"daniela|2026-04-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-04-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-04-18": {
+"tipo": "descanso"
+},
+"daniela|2026-04-19": {
+"tipo": "descanso"
+},
+"daniela|2026-04-20": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-04-21": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-04-22": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-04-23": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-04-24": {
+"tipo": "descanso"
+},
+"daniela|2026-04-25": {
+"tipo": "manana",
+"ini": "09:15",
+"fin": "17:15"
+},
+"daniela|2026-04-26": {
+"tipo": "manana",
+"ini": "09:30",
+"fin": "15:30"
+},
+"daniela|2026-04-27": {
+"tipo": "descanso"
+},
+"daniela|2026-04-28": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-04-29": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-04-30": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-05-01": {
+"tipo": "descanso"
+},
+"daniela|2026-05-02": {
+"tipo": "manana",
+"ini": "09:30",
+"fin": "17:30"
+},
+"daniela|2026-05-03": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"daniela|2026-05-04": {
+"tipo": "descanso"
+},
+"daniela|2026-05-05": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-05-06": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-05-07": {
+"tipo": "descanso"
+},
+"daniela|2026-05-08": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"daniela|2026-05-09": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"daniela|2026-05-10": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"nicolas|2026-04-11": {
+"tipo": "vacaciones"
+},
+"nicolas|2026-04-12": {
+"tipo": "descanso"
+},
+"nicolas|2026-04-13": {
+"tipo": "manana",
+"ini": "06:00",
+"fin": "14:00"
+},
+"nicolas|2026-04-14": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
+},
+"nicolas|2026-04-15": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
+},
+"nicolas|2026-04-16": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-04-17": {
+"tipo": "descanso"
+},
+"nicolas|2026-04-18": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-04-19": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-04-20": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"nicolas|2026-04-21": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"nicolas|2026-04-22": {
+"tipo": "descanso"
+},
+"nicolas|2026-04-23": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-04-24": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"nicolas|2026-04-25": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-04-26": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-04-27": {
+"tipo": "descanso"
+},
+"nicolas|2026-04-28": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-04-29": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-04-30": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-05-01": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-05-02": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-05-03": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-05-04": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-05-05": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-05-06": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-05-07": {
+"tipo": "descanso"
+},
+"nicolas|2026-05-08": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-05-09": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-05-10": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-04-11": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-04-12": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-04-13": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-04-14": {
+"tipo": "descanso"
+},
+"shean|2026-04-15": {
+"tipo": "descanso"
+},
+"shean|2026-04-16": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-04-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"shean|2026-04-18": {
+"tipo": "descanso"
+},
+"shean|2026-04-19": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-04-20": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-04-21": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"shean|2026-04-22": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-04-23": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"shean|2026-04-24": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-04-25": {
+"tipo": "descanso"
+},
+"shean|2026-04-26": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-04-27": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-04-28": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"shean|2026-04-29": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-04-30": {
+"tipo": "manana",
+"ini": "06:00",
+"fin": "14:00"
+},
+"shean|2026-05-01": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-05-02": {
+"tipo": "descanso"
+},
+"shean|2026-05-03": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-05-04": {
+"tipo": "vacaciones"
+},
+"shean|2026-05-05": {
+"tipo": "vacaciones"
+},
+"shean|2026-05-06": {
+"tipo": "vacaciones"
+},
+"shean|2026-05-07": {
+"tipo": "vacaciones"
+},
+"shean|2026-05-08": {
+"tipo": "vacaciones"
+},
+"shean|2026-05-09": {
+"tipo": "vacaciones"
+},
+"shean|2026-05-10": {
+"tipo": "descanso"
+},
+"santiago|2026-05-04": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"santiago|2026-05-05": {
+"tipo": "manana",
+"ini": "09:20",
+"fin": "17:20"
+},
+"santiago|2026-05-06": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"santiago|2026-05-07": {
+"tipo": "descanso"
+},
+"santiago|2026-05-08": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"santiago|2026-05-09": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"santiago|2026-05-10": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"zaira|2026-04-11": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-04-12": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"zaira|2026-04-13": {
+"tipo": "descanso"
+},
+"zaira|2026-04-14": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-04-15": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"zaira|2026-04-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"zaira|2026-04-17": {
+"tipo": "descanso"
+},
+"zaira|2026-04-18": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"zaira|2026-04-19": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-04-20": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"zaira|2026-04-21": {
+"tipo": "descanso"
+},
+"zaira|2026-04-22": {
+"tipo": "descanso"
+},
+"zaira|2026-04-23": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"zaira|2026-04-24": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"zaira|2026-04-25": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-04-26": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-04-27": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"zaira|2026-04-28": {
+"tipo": "descanso"
+},
+"zaira|2026-04-29": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"zaira|2026-04-30": {
+"tipo": "descanso"
+},
+"zaira|2026-05-01": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"zaira|2026-05-02": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"zaira|2026-05-03": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"zaira|2026-05-04": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-05-05": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-05-06": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-05-07": {
+"tipo": "descanso"
+},
+"zaira|2026-05-08": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"zaira|2026-05-09": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-05-10": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"gerwin|2026-04-11": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"gerwin|2026-04-12": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"gerwin|2026-04-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"gerwin|2026-04-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"gerwin|2026-04-18": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"gerwin|2026-04-19": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"gerwin|2026-04-20": {
+"tipo": "descanso"
+},
+"gerwin|2026-04-21": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"gerwin|2026-04-22": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "14:00"
+},
+"gerwin|2026-04-23": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"gerwin|2026-04-24": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"gerwin|2026-04-25": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"gerwin|2026-04-26": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"gerwin|2026-04-27": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"gerwin|2026-04-28": {
+"tipo": "descanso"
+},
+"gerwin|2026-04-29": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "14:00"
+},
+"gerwin|2026-04-30": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"gerwin|2026-05-01": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"gerwin|2026-05-02": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"gerwin|2026-05-03": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"gerwin|2026-05-04": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"cmonte|2026-05-11": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-05-12": {
+"tipo": "vacaciones"
+},
+"cmonte|2026-05-13": {
+"tipo": "vacaciones"
+},
+"cmonte|2026-05-14": {
+"tipo": "vacaciones"
+},
+"cmonte|2026-05-15": {
+"tipo": "vacaciones"
+},
+"cmonte|2026-05-16": {
+"tipo": "vacaciones"
+},
+"cmonte|2026-05-17": {
+"tipo": "vacaciones"
+},
+"cmonte|2026-05-18": {
+"tipo": "vacaciones"
+},
+"cmonte|2026-05-19": {
+"tipo": "vacaciones"
+},
+"cmonte|2026-05-20": {
+"tipo": "vacaciones"
+},
+"cmonte|2026-05-21": {
+"tipo": "vacaciones"
+},
+"cmonte|2026-05-22": {
+"tipo": "vacaciones"
+},
+"cmonte|2026-05-23": {
+"tipo": "vacaciones"
+},
+"cmonte|2026-05-24": {
+"tipo": "vacaciones"
+},
+"cmonte|2026-05-25": {
+"tipo": "vacaciones"
+},
+"cmonte|2026-05-26": {
+"tipo": "vacaciones"
+},
+"cmonte|2026-05-27": {
+"tipo": "vacaciones"
+},
+"cmonte|2026-05-28": {
+"tipo": "vacaciones"
+},
+"cmonte|2026-05-29": {
+"tipo": "vacaciones"
+},
+"cmonte|2026-05-30": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"cmonte|2026-05-31": {
+"tipo": "descanso"
+},
+"cmonte|2026-06-01": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-06-02": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-06-03": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-06-04": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-06-05": {
+"tipo": "descanso"
+},
+"cmonte|2026-06-06": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-06-07": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-06-08": {
+"tipo": "descanso"
+},
+"cmonte|2026-06-09": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-06-10": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-06-11": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"cmonte|2026-06-12": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"cmonte|2026-06-13": {
+"tipo": "descanso"
+},
+"cmonte|2026-06-14": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-06-15": {
+"tipo": "descanso"
+},
+"cmonte|2026-06-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-06-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-06-18": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-06-19": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-06-20": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-06-21": {
+"tipo": "descanso"
+},
+"cmonte|2026-06-22": {
+"tipo": "descanso"
+},
+"cmonte|2026-06-23": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"cmonte|2026-06-24": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "08:00"
+},
+"ctorres|2026-05-11": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-05-12": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"ctorres|2026-05-13": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"ctorres|2026-05-14": {
+"tipo": "descanso"
+},
+"ctorres|2026-05-15": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-05-16": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-05-17": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-05-18": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"ctorres|2026-05-19": {
+"tipo": "descanso"
+},
+"ctorres|2026-05-20": {
+"tipo": "descanso"
+},
+"ctorres|2026-05-21": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-05-22": {
+"tipo": "manana",
+"ini": "06:30",
+"fin": "14:30"
+},
+"ctorres|2026-05-23": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-05-24": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-05-25": {
+"tipo": "descanso"
+},
+"ctorres|2026-05-26": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"ctorres|2026-05-27": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-05-28": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-05-29": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-05-30": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-05-31": {
+"tipo": "descanso"
+},
+"ctorres|2026-06-01": {
+"tipo": "descanso"
+},
+"ctorres|2026-06-02": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"ctorres|2026-06-03": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-06-04": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "14:00"
+},
+"ctorres|2026-06-05": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-06-06": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-06-07": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-06-08": {
+"tipo": "descanso"
+},
+"ctorres|2026-06-09": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-06-10": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-06-11": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"ctorres|2026-06-12": {
+"tipo": "descanso"
+},
+"ctorres|2026-06-13": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-06-14": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-06-15": {
+"tipo": "descanso"
+},
+"ctorres|2026-06-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"ctorres|2026-06-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"ctorres|2026-06-18": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"ctorres|2026-06-19": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"ctorres|2026-06-20": {
+"tipo": "descanso"
+},
+"ctorres|2026-06-21": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "14:00"
+},
+"ctorres|2026-06-22": {
+"tipo": "descanso"
+},
+"ctorres|2026-06-23": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2026-06-24": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-05-11": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"maribel|2026-05-12": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"maribel|2026-05-13": {
+"tipo": "descanso"
+},
+"maribel|2026-05-14": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"maribel|2026-05-15": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"maribel|2026-05-16": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-05-17": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-05-18": {
+"tipo": "manana",
+"ini": "05:50",
+"fin": "13:50"
+},
+"maribel|2026-05-19": {
+"tipo": "descanso"
+},
+"maribel|2026-05-20": {
+"tipo": "tarde",
+"ini": "15:00",
+"fin": "cierre"
+},
+"maribel|2026-05-21": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-05-22": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-05-23": {
+"tipo": "descanso"
+},
+"maribel|2026-05-24": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-05-25": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-05-26": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-05-27": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"maribel|2026-05-28": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-05-29": {
+"tipo": "descanso"
+},
+"maribel|2026-05-30": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-05-31": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "12:00"
+},
+"maribel|2026-06-01": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"maribel|2026-06-02": {
+"tipo": "descanso"
+},
+"maribel|2026-06-03": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-06-04": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"maribel|2026-06-05": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-06-06": {
+"tipo": "descanso"
+},
+"maribel|2026-06-07": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-06-08": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-06-09": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-06-10": {
+"tipo": "tarde",
+"ini": "15:00",
+"fin": "cierre"
+},
+"maribel|2026-06-11": {
+"tipo": "descanso"
+},
+"maribel|2026-06-12": {
+"tipo": "descanso"
+},
+"maribel|2026-06-13": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-06-14": {
+"tipo": "descanso"
+},
+"maribel|2026-06-15": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"maribel|2026-06-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"maribel|2026-06-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"maribel|2026-06-18": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"maribel|2026-06-19": {
+"tipo": "descanso"
+},
+"maribel|2026-06-20": {
+"tipo": "manana",
+"ini": "11:00",
+"fin": "19:00"
+},
+"maribel|2026-06-21": {
+"tipo": "descanso"
+},
+"maribel|2026-06-22": {
+"tipo": "descanso"
+},
+"maribel|2026-06-23": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"maribel|2026-06-24": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "14:00"
+},
+"kelly|2026-05-12": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2026-05-13": {
+"tipo": "descanso"
+},
+"kelly|2026-05-14": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"kelly|2026-05-15": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"kelly|2026-05-16": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2026-05-17": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-05-18": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"kelly|2026-05-19": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"kelly|2026-05-20": {
+"tipo": "descanso"
+},
+"kelly|2026-05-21": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2026-05-22": {
+"tipo": "descanso"
+},
+"kelly|2026-05-23": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-05-24": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-05-25": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2026-05-26": {
+"tipo": "descanso"
+},
+"kelly|2026-05-27": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"kelly|2026-05-28": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2026-05-29": {
+"tipo": "manana",
+"ini": "09:30",
+"fin": "17:30"
+},
+"kelly|2026-05-30": {
+"tipo": "descanso"
+},
+"kelly|2026-05-31": {
+"tipo": "descanso"
+},
+"kelly|2026-06-01": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"kelly|2026-06-02": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2026-06-03": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"kelly|2026-06-04": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2026-06-05": {
+"tipo": "descanso"
+},
+"kelly|2026-06-06": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"kelly|2026-06-07": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"kelly|2026-06-08": {
+"tipo": "descanso"
+},
+"kelly|2026-06-09": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2026-06-10": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2026-06-11": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"kelly|2026-06-12": {
+"tipo": "descanso"
+},
+"kelly|2026-06-13": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"kelly|2026-06-14": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"kelly|2026-06-15": {
+"tipo": "descanso"
+},
+"kelly|2026-06-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"kelly|2026-06-17": {
+"tipo": "descanso"
+},
+"kelly|2026-06-18": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2026-06-19": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2026-06-20": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"kelly|2026-06-21": {
+"tipo": "descanso"
+},
+"kelly|2026-06-22": {
+"tipo": "descanso"
+},
+"kelly|2026-06-23": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"kelly|2026-06-24": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "14:00"
+},
+"diego|2026-05-11": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"diego|2026-05-12": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-05-13": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-05-14": {
+"tipo": "descanso"
+},
+"diego|2026-05-15": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"diego|2026-05-16": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-05-17": {
+"tipo": "manana",
+"ini": "08:30",
+"fin": "16:30"
+},
+"diego|2026-05-18": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-05-19": {
+"tipo": "descanso"
+},
+"diego|2026-05-20": {
+"tipo": "tarde",
+"ini": "15:00",
+"fin": "cierre"
+},
+"diego|2026-05-21": {
+"tipo": "manana",
+"ini": "08:30",
+"fin": "16:30"
+},
+"diego|2026-05-22": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-05-23": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-05-24": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-05-25": {
+"tipo": "descanso"
+},
+"diego|2026-05-26": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-05-27": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-05-28": {
+"tipo": "manana",
+"ini": "11:00",
+"fin": "19:00"
+},
+"diego|2026-05-29": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-05-30": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-05-31": {
+"tipo": "descanso"
+},
+"diego|2026-06-01": {
+"tipo": "descanso"
+},
+"diego|2026-06-02": {
+"tipo": "manana",
+"ini": "11:00",
+"fin": "20:00"
+},
+"diego|2026-06-03": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
+},
+"diego|2026-06-04": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-06-05": {
+"tipo": "manana",
+"ini": "11:00",
+"fin": "19:00"
+},
+"diego|2026-06-06": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"diego|2026-06-07": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-06-08": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-06-09": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"diego|2026-06-10": {
+"tipo": "descanso"
+},
+"diego|2026-06-11": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-06-12": {
+"tipo": "descanso"
+},
+"diego|2026-06-13": {
+"tipo": "manana",
+"ini": "09:30",
+"fin": "17:30"
+},
+"diego|2026-06-14": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-06-15": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-06-16": {
+"tipo": "descanso"
+},
+"diego|2026-06-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"diego|2026-06-18": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"diego|2026-06-19": {
+"tipo": "manana",
+"ini": "07:30",
+"fin": "15:30"
+},
+"diego|2026-06-20": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"diego|2026-06-21": {
+"tipo": "descanso"
+},
+"diego|2026-06-22": {
+"tipo": "descanso"
+},
+"diego|2026-06-23": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "08:00"
+},
+"diego|2026-06-24": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "08:00"
+},
+"deisy|2026-05-11": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-05-12": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"deisy|2026-05-13": {
+"tipo": "descanso"
+},
+"deisy|2026-05-14": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-05-15": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-05-16": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"deisy|2026-05-17": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"deisy|2026-05-18": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-05-19": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-05-20": {
+"tipo": "descanso"
+},
+"deisy|2026-05-21": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-05-22": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-05-23": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-05-24": {
+"tipo": "descanso"
+},
+"deisy|2026-05-25": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-05-26": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-05-27": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-05-28": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-05-29": {
+"tipo": "descanso"
+},
+"deisy|2026-05-30": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-05-31": {
+"tipo": "descanso"
+},
+"deisy|2026-06-01": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-06-02": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-06-03": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-06-04": {
+"tipo": "descanso"
+},
+"deisy|2026-06-05": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-06-06": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-06-07": {
+"tipo": "descanso"
+},
+"deisy|2026-06-08": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"deisy|2026-06-09": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-06-10": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-06-11": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-06-12": {
+"tipo": "descanso"
+},
+"deisy|2026-06-13": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-06-14": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"deisy|2026-06-15": {
+"tipo": "descanso"
+},
+"deisy|2026-06-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-06-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-06-18": {
+"tipo": "descanso"
+},
+"deisy|2026-06-19": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"deisy|2026-06-20": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"deisy|2026-06-21": {
+"tipo": "descanso"
+},
+"deisy|2026-06-22": {
+"tipo": "descanso"
+},
+"deisy|2026-06-23": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "08:00"
+},
+"deisy|2026-06-24": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "08:00"
+},
+"daniela|2026-05-11": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-05-12": {
+"tipo": "vacaciones"
+},
+"daniela|2026-05-13": {
+"tipo": "vacaciones"
+},
+"daniela|2026-05-14": {
+"tipo": "vacaciones"
+},
+"daniela|2026-05-15": {
+"tipo": "vacaciones"
+},
+"daniela|2026-05-16": {
+"tipo": "vacaciones"
+},
+"daniela|2026-05-17": {
+"tipo": "vacaciones"
+},
+"daniela|2026-05-18": {
+"tipo": "vacaciones"
+},
+"daniela|2026-05-19": {
+"tipo": "vacaciones"
+},
+"daniela|2026-05-20": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-05-21": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-05-22": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-05-23": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"daniela|2026-05-24": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"daniela|2026-05-25": {
+"tipo": "descanso"
+},
+"daniela|2026-05-26": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-05-27": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-05-28": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-05-29": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-05-30": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-05-31": {
+"tipo": "descanso"
+},
+"daniela|2026-06-01": {
+"tipo": "manana",
+"ini": "12:00",
+"fin": "16:00"
+},
+"daniela|2026-06-02": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-06-03": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-06-04": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-06-05": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-06-06": {
+"tipo": "descanso"
+},
+"daniela|2026-06-07": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"daniela|2026-06-08": {
+"tipo": "descanso"
+},
+"daniela|2026-06-09": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-06-10": {
+"tipo": "manana",
+"ini": "12:00",
+"fin": "20:00"
+},
+"daniela|2026-06-11": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"daniela|2026-06-12": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-06-13": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-06-14": {
+"tipo": "descanso"
+},
+"daniela|2026-06-15": {
+"tipo": "descanso"
+},
+"daniela|2026-06-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-06-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-06-19": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-06-20": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"daniela|2026-06-21": {
+"tipo": "descanso"
+},
+"daniela|2026-06-22": {
+"tipo": "descanso"
+},
+"daniela|2026-06-23": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "08:00"
+},
+"daniela|2026-06-24": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "08:00"
+},
+"nicolas|2026-05-11": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"nicolas|2026-05-12": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"nicolas|2026-05-13": {
+"tipo": "descanso"
+},
+"nicolas|2026-05-14": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"nicolas|2026-05-15": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"nicolas|2026-05-16": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-05-17": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-05-18": {
+"tipo": "manana",
+"ini": "05:50",
+"fin": "13:50"
+},
+"nicolas|2026-05-19": {
+"tipo": "descanso"
+},
+"nicolas|2026-05-20": {
+"tipo": "tarde",
+"ini": "15:00",
+"fin": "cierre"
+},
+"nicolas|2026-05-21": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-05-22": {
+"tipo": "manana",
+"ini": "06:30",
+"fin": "14:30"
+},
+"nicolas|2026-05-23": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-05-24": {
+"tipo": "descanso"
+},
+"nicolas|2026-05-25": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-05-26": {
+"tipo": "descanso"
+},
+"nicolas|2026-05-27": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"nicolas|2026-05-28": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-05-29": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-05-30": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-05-31": {
+"tipo": "descanso"
+},
+"nicolas|2026-06-01": {
+"tipo": "descanso"
+},
+"nicolas|2026-06-02": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-06-03": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-06-04": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"nicolas|2026-06-05": {
+"tipo": "descanso"
+},
+"nicolas|2026-06-06": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-06-07": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-06-08": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-06-09": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-06-10": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-06-11": {
+"tipo": "descanso"
+},
+"nicolas|2026-06-12": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-06-13": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-06-14": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2026-06-15": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-06-16": {
+"tipo": "descanso"
+},
+"nicolas|2026-06-17": {
+"tipo": "descanso"
+},
+"nicolas|2026-06-18": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"nicolas|2026-06-19": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-06-20": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"nicolas|2026-06-21": {
+"tipo": "descanso"
+},
+"nicolas|2026-06-22": {
+"tipo": "descanso"
+},
+"nicolas|2026-06-23": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "08:00"
+},
+"nicolas|2026-06-24": {
+"tipo": "manana",
+"ini": "16:00",
+"fin": "16:00"
+},
+"shean|2026-05-11": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-05-12": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"shean|2026-05-13": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"shean|2026-05-14": {
+"tipo": "descanso"
+},
+"shean|2026-05-15": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-05-16": {
+"tipo": "tarde",
+"ini": "16:00",
+"fin": "cierre"
+},
+"shean|2026-05-17": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-05-18": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"shean|2026-05-19": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"shean|2026-05-20": {
+"tipo": "descanso"
+},
+"shean|2026-05-21": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-05-22": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-05-23": {
+"tipo": "descanso"
+},
+"shean|2026-05-24": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-05-25": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-05-26": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-05-27": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-05-28": {
+"tipo": "descanso"
+},
+"shean|2026-05-29": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-05-30": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-05-31": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "12:00"
+},
+"shean|2026-06-01": {
+"tipo": "descanso"
+},
+"shean|2026-06-02": {
+"tipo": "descanso"
+},
+"shean|2026-06-03": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-06-04": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-06-05": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-06-06": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-06-07": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-06-08": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-06-09": {
+"tipo": "descanso"
+},
+"shean|2026-06-10": {
+"tipo": "tarde",
+"ini": "15:00",
+"fin": "cierre"
+},
+"shean|2026-06-11": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"shean|2026-06-12": {
+"tipo": "descanso"
+},
+"shean|2026-06-13": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-06-14": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"shean|2026-06-15": {
+"tipo": "descanso"
+},
+"shean|2026-06-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"shean|2026-06-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"shean|2026-06-18": {
+"tipo": "descanso"
+},
+"shean|2026-06-19": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2026-06-20": {
+"tipo": "manana",
+"ini": "11:00",
+"fin": "19:00"
+},
+"shean|2026-06-21": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "14:00"
+},
+"shean|2026-06-22": {
+"tipo": "descanso"
+},
+"shean|2026-06-23": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"shean|2026-06-24": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"santiago|2026-06-20": {
+"tipo": "descanso"
+},
+"zaira|2026-05-11": {
+"tipo": "descanso"
+},
+"zaira|2026-05-12": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"zaira|2026-05-13": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"zaira|2026-05-14": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"zaira|2026-05-15": {
+"tipo": "descanso"
+},
+"zaira|2026-05-16": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-05-17": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-05-18": {
+"tipo": "descanso"
+},
+"zaira|2026-05-19": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"zaira|2026-05-20": {
+"tipo": "tarde",
+"ini": "15:00",
+"fin": "cierre"
+},
+"zaira|2026-05-21": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-05-22": {
+"tipo": "descanso"
+},
+"zaira|2026-05-23": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-05-24": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-05-25": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"zaira|2026-05-26": {
+"tipo": "descanso"
+},
+"zaira|2026-05-27": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"zaira|2026-05-28": {
+"tipo": "descanso"
+},
+"zaira|2026-05-29": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-05-30": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"zaira|2026-05-31": {
+"tipo": "descanso"
+},
+"zaira|2026-06-01": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"zaira|2026-06-02": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"zaira|2026-06-03": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"zaira|2026-06-04": {
+"tipo": "descanso"
+},
+"zaira|2026-06-05": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-06-06": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-06-07": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"zaira|2026-06-08": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"zaira|2026-06-09": {
+"tipo": "descanso"
+},
+"zaira|2026-06-10": {
+"tipo": "manana",
+"ini": "12:00",
+"fin": "20:00"
+},
+"zaira|2026-06-11": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-06-12": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-06-13": {
+"tipo": "descanso"
+},
+"zaira|2026-06-14": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-06-15": {
+"tipo": "descanso"
+},
+"zaira|2026-06-16": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"zaira|2026-06-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"zaira|2026-06-18": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"zaira|2026-06-19": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"zaira|2026-06-20": {
+"tipo": "manana",
+"ini": "07:00",
+"fin": "15:00"
+},
+"zaira|2026-06-21": {
+"tipo": "descanso"
+},
+"zaira|2026-06-22": {
+"tipo": "descanso"
+},
+"zaira|2026-06-23": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"zaira|2026-06-24": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"gerwin|2026-05-07": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"gerwin|2026-05-08": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"gerwin|2026-05-09": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"gerwin|2026-05-10": {
+"tipo": "descanso"
+},
+"gerwin|2026-05-12": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "14:00"
+},
+"gerwin|2026-05-13": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"gerwin|2026-05-14": {
+"tipo": "descanso"
+},
+"gerwin|2026-05-15": {
+"tipo": "manana",
+"ini": "10:00",
+"fin": "18:00"
+},
+"gerwin|2026-05-16": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"gerwin|2026-05-17": {
+"tipo": "manana",
+"ini": "08:00",
+"fin": "16:00"
+},
+"gerwin|2026-05-18": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"gerwin|2026-05-19": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"gerwin|2026-05-20": {
+"tipo": "descanso"
+},
+"gerwin|2026-05-21": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"gerwin|2026-05-22": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"gerwin|2026-05-23": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"gerwin|2026-05-24": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"gerwin|2026-05-25": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"gerwin|2026-05-26": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"gerwin|2026-05-27": {
+"tipo": "descanso"
+},
+"gerwin|2026-05-28": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"gerwin|2026-05-30": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"gerwin|2026-05-31": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"gerwin|2026-06-01": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"gerwin|2026-06-02": {
+"tipo": "descanso"
+},
+"gerwin|2026-06-03": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"gerwin|2026-06-04": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+},
+"gerwin|2026-06-05": {
+"tipo": "manana",
+"ini": "09:00",
+"fin": "17:00"
+}
+}
+}

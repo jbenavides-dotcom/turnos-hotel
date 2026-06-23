@@ -167,6 +167,8 @@ class Handler(BaseHTTPRequestHandler):
             return self._send(200, ocupacion(desde, dias))
         if u.path == "/api/parrilla":
             return self._send(200, load_parrilla())
+        if u.path in ("/parrilla_lina.json", "/docs/parrilla_lina.json"):
+            return self._serve_file(os.path.join("docs", "parrilla_lina.json"), "application/json; charset=utf-8")
         if u.path.lstrip("/") in ("prototipo-parrilla.html", "DISENO-TURNOS.md", "README.md"):
             ctype = "text/html; charset=utf-8" if u.path.endswith(".html") else "text/plain; charset=utf-8"
             return self._serve_file(u.path.lstrip("/"), ctype)

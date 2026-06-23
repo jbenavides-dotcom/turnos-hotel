@@ -70,6 +70,7 @@
   .descanso{background:var(--descanso);color:var(--descanso-b);font-weight:700;letter-spacing:.03em}
   .vacaciones{background:var(--vac);color:var(--vac-b);font-weight:700;letter-spacing:.03em}
   .custom{background:var(--custom);color:var(--custom-b)}
+  .cell.sug{opacity:.42;background-image:repeating-linear-gradient(45deg,transparent,transparent 5px,rgba(0,0,0,.05) 5px,rgba(0,0,0,.05) 10px)}
   .cabrow td{background:#f6f2e8;font-weight:700;color:var(--forest-dark);padding:7px 3px}
   .cabrow .ref{display:block;font-size:.6rem;font-weight:700;color:var(--gold);letter-spacing:.03em}
   .cov{font-size:.7rem;font-weight:700;padding:6px 3px;background:#f6f2e8}
@@ -123,6 +124,7 @@
       <span><span class="chip" style="background:var(--custom)"></span> Horario por rol</span>
       <span><span class="chip" style="background:var(--descanso)"></span> DESCANSO</span>
       <span><span class="chip" style="background:var(--vac)"></span> VACACIONES</span>
+      <span><span class="chip" style="background:repeating-linear-gradient(45deg,#cfcabb,#cfcabb 4px,#fff 4px,#fff 8px);opacity:.7"></span> Atenuado = sugerencia (aún no está en la hoja de Lina)</span>
     </div>
     <div class="note" id="footnote">Cargando ocupación…</div>
   </div>
@@ -157,7 +159,7 @@ const FUNC={ctorres:'Cocina',maribel:'Cocina',zaira:'Cocina',shean:'Servicio',
   cmonte:'Áreas públicas',deisy:'Áreas públicas',diego:'Conductor',
   nicolle:'Apoyo',santiago:'Apoyo'};
 
-let overrides={}, notas={}, bases={}, ocup={};
+let overrides={}, notas={}, bases={}, ocup={}, linaPlan={};
 const fechaInput=document.getElementById('fecha');
 
 // ===== Generador de horario semanal (reglas de Lina + ocupación Cloudbeds) =====
@@ -237,17 +239,19 @@ function turnoRot(emp,d){const dow=(d.getDay()+6)%7;const flip=((((weekIndex(d)+
 function descansoBase(emp,dow){return emp.descanso===dow;}
 
 // turno efectivo: override > rotación/base
+// Prioridad: edición del usuario > plan REAL de Lina > sugerencia (rotación/horario fijo)
 function efectivo(emp,d,dow){
-  const ov=overrides[`${emp.id}|${iso(d)}`];
-  if(ov) return ov;
-  if(descansoBase(emp,dow)) return {tipo:'descanso'};
+  const k=`${emp.id}|${iso(d)}`;
+  if(overrides[k]) return Object.assign({_src:'edit'},overrides[k]);
+  if(linaPlan[k])  return Object.assign({_src:'lina'},linaPlan[k]);
+  if(descansoBase(emp,dow)) return {tipo:'descanso',_src:'sug'};
   if(emp.rol==='rotacion'){
     return turnoRot(emp,d)==='manana'
-      ? {tipo:'manana',ini:'07:00',fin:'15:00'}
-      : {tipo:'tarde',ini:'14:00',fin:'cierre'};
+      ? {tipo:'manana',ini:'07:00',fin:'15:00',_src:'sug'}
+      : {tipo:'tarde',ini:'14:00',fin:'cierre',_src:'sug'};
   }
   const b=bases[emp.id]||emp.base;
-  return {tipo:'custom',ini:b[0],fin:b[1]};
+  return {tipo:'custom',ini:b[0],fin:b[1],_src:'sug'};
 }
 // Formato de hora como en el documento de Lina: "7:00 am", "3:00 pm", "cierre"
 function fmtHora(h){
@@ -308,7 +312,7 @@ function render(){
     h+=`<tr><td class='emp' data-emp='${emp.id}' title='Clic para editar horario/rol'>${emp.nombre}<span class='rol'>${FUNC[emp.id]||ROL_LABEL[emp.rol]} · ${emp.rol==='rotacion'?'rota':'fijo'}</span></td>`;
     dias.forEach((d,i)=>{
       const e=efectivo(emp,d,i);const[a,b]=etiqueta(e);
-      const cls=e.tipo;
+      const cls=e.tipo+(e._src==='sug'?' sug':'');
       h+=`<td class='cell ${cls} ${iso(d)===hoy?'hoy':''}' data-e='${emp.id}' data-d='${iso(d)}'>${a}${b?`<small>${b}</small>`:''}</td>`;
     });
     h+="</tr>";
@@ -412,6 +416,9 @@ async function cargarParrilla(){
   try{const r=await fetch('/api/parrilla');const j=await r.json();
     overrides=j.overrides||{};notas=j.notas||{};bases=j.bases||{};}catch(e){}
 }
+async function cargarLina(){   // plan REAL de Lina (solo lectura, snapshot de su hoja)
+  try{const r=await fetch('./parrilla_lina.json?'+Date.now());const j=await r.json();linaPlan=j.plan||{};}catch(e){linaPlan={};}
+}
 async function recargar(){await cargarOcupacion();render();}
 document.getElementById('prev').onclick=()=>shift(-7);
 document.getElementById('next').onclick=()=>shift(7);
@@ -420,7 +427,7 @@ function shift(n){const d=new Date(fechaInput.value);d.setDate(d.getDate()+n);fe
 fechaInput.addEventListener('change',recargar);
 
 (async function init(){
-  await Promise.all([cargarStatus(),cargarParrilla()]);
+  await Promise.all([cargarStatus(),cargarParrilla(),cargarLina()]);
   await cargarOcupacion();
   render();
 })();
