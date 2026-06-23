@@ -182,6 +182,7 @@ class Handler(BaseHTTPRequestHandler):
             save_parrilla({
                 "overrides": body.get("overrides", {}),
                 "notas": body.get("notas", {}),
+                "bases": body.get("bases", {}),
             })
             return self._send(200, {"ok": True})
         except Exception as e:

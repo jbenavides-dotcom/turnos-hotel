@@ -60,6 +60,8 @@
   th.hoy,td.hoy{outline:2px solid var(--gold);outline-offset:-2px}
   .emp{text-align:left;padding:9px 12px;font-weight:600;background:#f3efe3;color:var(--forest-dark);white-space:nowrap;font-size:.8rem}
   .emp .rol{display:block;font-weight:400;font-size:.66rem;color:var(--moss)}
+  .emp[data-emp]{cursor:pointer} .emp[data-emp]:hover{background:#eae4d2}
+  .emp[data-emp] .rol::after{content:' ✎';opacity:.4;font-size:.6rem}
   .cell{padding:8px 4px;font-weight:600;cursor:pointer;user-select:none;min-width:86px;transition:filter .12s}
   .cell:hover{filter:brightness(.95)}
   .cell small{display:block;font-weight:400;font-size:.64rem;opacity:.75}
@@ -155,7 +157,7 @@ const FUNC={ctorres:'Cocina',maribel:'Cocina',zaira:'Cocina',shean:'Servicio',
   cmonte:'Áreas públicas',deisy:'Áreas públicas',diego:'Conductor',
   nicolle:'Apoyo',santiago:'Apoyo'};
 
-let overrides={}, notas={}, ocup={};
+let overrides={}, notas={}, bases={}, ocup={};
 const fechaInput=document.getElementById('fecha');
 
 // ===== Generador de horario semanal (reglas de Lina + ocupación Cloudbeds) =====
@@ -244,7 +246,8 @@ function efectivo(emp,d,dow){
       ? {tipo:'manana',ini:'07:00',fin:'15:00'}
       : {tipo:'tarde',ini:'14:00',fin:'cierre'};
   }
-  return {tipo:'custom',ini:emp.base[0],fin:emp.base[1]};
+  const b=bases[emp.id]||emp.base;
+  return {tipo:'custom',ini:b[0],fin:b[1]};
 }
 // Formato de hora como en el documento de Lina: "7:00 am", "3:00 pm", "cierre"
 function fmtHora(h){
@@ -268,7 +271,7 @@ function autosave(){
   saveTimer=setTimeout(async()=>{
     try{
       await fetch('/api/parrilla',{method:'POST',headers:{'Content-Type':'application/json'},
-        body:JSON.stringify({overrides,notas})});
+        body:JSON.stringify({overrides,notas,bases})});
       const s=document.getElementById('saved');s.classList.add('show');setTimeout(()=>s.classList.remove('show'),1200);
     }catch(e){}
   },500);
@@ -302,7 +305,7 @@ function render(){
   h+="</tr>";
 
   EMPLEADOS.forEach(emp=>{
-    h+=`<tr><td class='emp'>${emp.nombre}<span class='rol'>${FUNC[emp.id]||ROL_LABEL[emp.rol]} · ${emp.rol==='rotacion'?'rota':'fijo'}</span></td>`;
+    h+=`<tr><td class='emp' data-emp='${emp.id}' title='Clic para editar horario/rol'>${emp.nombre}<span class='rol'>${FUNC[emp.id]||ROL_LABEL[emp.rol]} · ${emp.rol==='rotacion'?'rota':'fijo'}</span></td>`;
     dias.forEach((d,i)=>{
       const e=efectivo(emp,d,i);const[a,b]=etiqueta(e);
       const cls=e.tipo;
@@ -335,6 +338,7 @@ function render(){
 
   const g=document.getElementById('grid');g.innerHTML=h;
   g.querySelectorAll('.cell').forEach(c=>c.addEventListener('click',ev=>abrirPop(ev,c.dataset.e,c.dataset.d)));
+  g.querySelectorAll('td.emp[data-emp]').forEach(td=>td.addEventListener('click',ev=>abrirBasePop(ev,td.dataset.emp)));
   g.querySelectorAll('input[data-nota]').forEach(inp=>inp.addEventListener('change',()=>{
     const k=inp.dataset.nota;const v=inp.value.trim();
     if(v)notas[k]=v;else delete notas[k];autosave();}));
@@ -370,6 +374,31 @@ function abrirPop(ev,empId,fecha){
     setOv(empId,fecha,{tipo:'custom',ini,fin});
   };
 }
+// Editar el HORARIO FIJO (base) de un colaborador 'por rol' desde el nombre
+function setBase(empId,val){
+  if(val===null)delete bases[empId];else bases[empId]=val;
+  autosave();render();pop.style.display='none';
+}
+function abrirBasePop(ev,empId){
+  ev.stopPropagation();
+  const emp=EMPLEADOS.find(e=>e.id===empId);
+  if(emp.rol==='rotacion'){
+    pop.innerHTML=`<div class='who'>${emp.nombre} · ${FUNC[empId]||''}</div>`+
+      `<div style='padding:4px 8px 8px;font-size:.76rem;color:var(--ink-soft);max-width:210px'>Rota mañana/tarde automáticamente. Para cambiar un día puntual, haz clic en su celda del día.</div>`;
+  } else {
+    const b=bases[empId]||emp.base;
+    pop.innerHTML=`<div class='who'>${emp.nombre} · horario fijo</div>`+
+      `<div class='row'><input type='time' id='bi' value='${b[0]}'><span>–</span><input type='time' id='bf' value='${b[1]}'><button class='mini' id='okb'>Fijar</button></div>`+
+      `<button data-rb='clear' style='color:var(--rose-dark)'>↩ Volver al horario por defecto</button>`;
+  }
+  pop.style.display='block';
+  const x=Math.min(ev.pageX,window.scrollX+window.innerWidth-230);
+  pop.style.left=x+'px';pop.style.top=(ev.pageY+6)+'px';
+  const okb=pop.querySelector('#okb');
+  if(okb)okb.onclick=()=>{const i=pop.querySelector('#bi').value,f=pop.querySelector('#bf').value;if(i&&f)setBase(empId,[i,f]);};
+  const cl=pop.querySelector('[data-rb=clear]');
+  if(cl)cl.onclick=()=>setBase(empId,null);
+}
 document.addEventListener('click',e=>{if(!pop.contains(e.target)&&!e.target.classList.contains('cell'))pop.style.display='none';});
 
 async function cargarStatus(){
@@ -381,7 +410,7 @@ async function cargarStatus(){
 }
 async function cargarParrilla(){
   try{const r=await fetch('/api/parrilla');const j=await r.json();
-    overrides=j.overrides||{};notas=j.notas||{};}catch(e){}
+    overrides=j.overrides||{};notas=j.notas||{};bases=j.bases||{};}catch(e){}
 }
 async function recargar(){await cargarOcupacion();render();}
 document.getElementById('prev').onclick=()=>shift(-7);
