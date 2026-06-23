@@ -1,5 +1,5 @@
 {
-"generated": "2026-06-23T14:21:24",
+"generated": "2026-06-23T15:04:37",
 "plan": {
 "cmonte|2025-12-01": {
 "tipo": "manana",
@@ -949,109 +949,6 @@
 "tipo": "descanso"
 },
 "shean|2025-12-25": {
-"tipo": "descanso"
-},
-"nicolle|2025-12-01": {
-"tipo": "descanso"
-},
-"nicolle|2025-12-02": {
-"tipo": "manana",
-"ini": "08:00",
-"fin": "16:00"
-},
-"nicolle|2025-12-03": {
-"tipo": "manana",
-"ini": "07:00",
-"fin": "15:00"
-},
-"nicolle|2025-12-04": {
-"tipo": "vacaciones"
-},
-"nicolle|2025-12-05": {
-"tipo": "vacaciones"
-},
-"nicolle|2025-12-06": {
-"tipo": "vacaciones"
-},
-"nicolle|2025-12-07": {
-"tipo": "descanso"
-},
-"nicolle|2025-12-08": {
-"tipo": "tarde",
-"ini": "14:00",
-"fin": "cierre"
-},
-"nicolle|2025-12-09": {
-"tipo": "manana",
-"ini": "08:00",
-"fin": "16:00"
-},
-"nicolle|2025-12-10": {
-"tipo": "manana",
-"ini": "07:00",
-"fin": "16:00"
-},
-"nicolle|2025-12-11": {
-"tipo": "descanso"
-},
-"nicolle|2025-12-12": {
-"tipo": "tarde",
-"ini": "15:00",
-"fin": "cierre"
-},
-"nicolle|2025-12-13": {
-"tipo": "tarde",
-"ini": "17:00",
-"fin": "cierre"
-},
-"nicolle|2025-12-14": {
-"tipo": "manana",
-"ini": "08:00",
-"fin": "17:00"
-},
-"nicolle|2025-12-15": {
-"tipo": "descanso"
-},
-"nicolle|2025-12-16": {
-"tipo": "manana",
-"ini": "08:00",
-"fin": "16:00"
-},
-"nicolle|2025-12-17": {
-"tipo": "descanso"
-},
-"nicolle|2025-12-18": {
-"tipo": "manana",
-"ini": "10:00",
-"fin": "18:00"
-},
-"nicolle|2025-12-19": {
-"tipo": "manana",
-"ini": "08:00",
-"fin": "16:00"
-},
-"nicolle|2025-12-20": {
-"tipo": "manana",
-"ini": "08:00",
-"fin": "16:00"
-},
-"nicolle|2025-12-21": {
-"tipo": "manana",
-"ini": "09:00",
-"fin": "17:00"
-},
-"nicolle|2025-12-22": {
-"tipo": "manana",
-"ini": "08:00",
-"fin": "16:00"
-},
-"nicolle|2025-12-23": {
-"tipo": "descanso"
-},
-"nicolle|2025-12-24": {
-"tipo": "descanso"
-},
-"nicolle|2025-12-25": {
 "tipo": "descanso"
 },
 "santiago|2025-12-07": {
@@ -5323,21 +5220,6 @@
 "tipo": "tarde",
 "ini": "14:00",
 "fin": "cierre"
-},
-"nicolle|2026-04-02": {
-"tipo": "manana",
-"ini": "07:00",
-"fin": "15:00"
-},
-"nicolle|2026-04-03": {
-"tipo": "manana",
-"ini": "09:00",
-"fin": "17:00"
-},
-"nicolle|2026-04-04": {
-"tipo": "manana",
-"ini": "07:00",
-"fin": "15:00"
 },
 "santiago|2026-02-23": {
 "tipo": "manana",

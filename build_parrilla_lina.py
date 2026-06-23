@@ -34,7 +34,7 @@ NAME2ID = {
     "CLAUDIA TORRES": "ctorres", "MARIBEL PAEZ": "maribel", "ZAIRA": "zaira",
     "NICOLAS SARMIENTO": "nicolas", "SHEAN PAUL GUTIERREZ": "shean", "KELLY CRUZ": "kelly",
     "DANIELA MONROY": "daniela", "GERWIN": "gerwin", "CLAUDIA MONTENEGRO": "cmonte",
-    "DEISY RODRIGUEZ": "deisy", "DIEGO DIAZ": "diego", "NICOLLE": "nicolle", "SANTIAGO": "santiago",
+    "DEISY RODRIGUEZ": "deisy", "DIEGO DIAZ": "diego", "SANTIAGO": "santiago",
 }
 
 
