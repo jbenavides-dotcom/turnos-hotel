@@ -134,10 +134,10 @@ const UMBRAL=7;
 const REF_MONDAY=new Date(2026,5,8);
 // Plantilla real (TURNOS 2026.xlsx). rol 'rotacion' = rotación auto mañana/tarde.
 const EMPLEADOS=[
-  {id:'ctorres',nombre:'Claudia Torres',rol:'rotacion',inicial:'manana',descanso:1},
-  {id:'maribel',nombre:'Maribel Páez',rol:'rotacion',inicial:'manana',descanso:2},
-  {id:'shean',  nombre:'Shean Paul',  rol:'rotacion',inicial:'tarde', descanso:3},
-  {id:'nicolas',nombre:'Nicolás Sarmiento',rol:'rotacion',inicial:'tarde',descanso:4},
+  {id:'ctorres',nombre:'Claudia Torres',rol:'rotacion',inicial:'manana',fase:0,descanso:1},
+  {id:'maribel',nombre:'Maribel Páez',rol:'rotacion',inicial:'manana',fase:1,descanso:2},
+  {id:'shean',  nombre:'Shean Paul',  rol:'rotacion',inicial:'tarde', fase:0,descanso:3},
+  {id:'nicolas',nombre:'Nicolás Sarmiento',rol:'rotacion',inicial:'tarde',fase:1,descanso:4},
   {id:'cmonte', nombre:'Claudia Montenegro',rol:'rol',base:['08:00','16:00'],descanso:0},
   {id:'kelly',  nombre:'Kelly Cruz',  rol:'rol',base:['08:00','16:00'],descanso:5},
   {id:'diego',  nombre:'Diego Díaz',  rol:'rol',base:['09:00','17:00'],descanso:4},
@@ -225,7 +225,8 @@ const hoy=iso(new Date());
 fechaInput.value=hoy;
 function mondayOf(d){const x=(typeof d==='string')?new Date(d+'T00:00'):new Date(d);const k=(x.getDay()+6)%7;x.setDate(x.getDate()-k);x.setHours(0,0,0,0);return x;}
 function weekIndex(d){return Math.round((mondayOf(d)-REF_MONDAY)/(7*864e5));}
-function turnoRot(emp,d){const flip=(((weekIndex(d)%2)+2)%2)===1;let t=emp.inicial;if(flip)t=(t==='manana'?'tarde':'manana');return t;}
+// Rotación día por día (como Lina): alterna mañana/tarde cada día; 'fase' escalona para cubrir 2 AM + 2 PM.
+function turnoRot(emp,d){const dow=(d.getDay()+6)%7;const flip=((((weekIndex(d)+dow+(emp.fase||0))%2)+2)%2)===1;let t=emp.inicial;if(flip)t=(t==='manana'?'tarde':'manana');return t;}
 function descansoBase(emp,dow){return emp.descanso===dow;}
 
 // turno efectivo: override > rotación/base
