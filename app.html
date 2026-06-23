@@ -149,6 +149,11 @@ const EMPLEADOS=[
   {id:'santiago',nombre:'Santiago',   rol:'rol',base:['09:30','17:30'],descanso:5},
 ];
 const ROL_LABEL={rotacion:'rotación',rol:'por rol'};
+// Función real de cada colaborador (se muestra bajo el nombre)
+const FUNC={ctorres:'Cocina',maribel:'Cocina',zaira:'Cocina',shean:'Servicio',
+  nicolas:'Servicio',gerwin:'Comercial',kelly:'Guía',daniela:'Admin',
+  cmonte:'Áreas públicas',deisy:'Áreas públicas',diego:'Conductor',
+  nicolle:'Apoyo',santiago:'Apoyo'};
 
 let overrides={}, notas={}, ocup={};
 const fechaInput=document.getElementById('fecha');
@@ -297,7 +302,7 @@ function render(){
   h+="</tr>";
 
   EMPLEADOS.forEach(emp=>{
-    h+=`<tr><td class='emp'>${emp.nombre}<span class='rol'>${ROL_LABEL[emp.rol]}</span></td>`;
+    h+=`<tr><td class='emp'>${emp.nombre}<span class='rol'>${FUNC[emp.id]||ROL_LABEL[emp.rol]} · ${emp.rol==='rotacion'?'rota':'fijo'}</span></td>`;
     dias.forEach((d,i)=>{
       const e=efectivo(emp,d,i);const[a,b]=etiqueta(e);
       const cls=e.tipo;
