@@ -1,10 +1,15 @@
 {
-"generated": "2026-06-23T13:59:50",
+"generated": "2026-06-23T14:21:24",
 "plan": {
 "cmonte|2025-12-01": {
 "tipo": "manana",
 "ini": "08:00",
 "fin": "16:00"
+},
+"cmonte|2025-12-02": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
 },
 "cmonte|2025-12-03": {
 "tipo": "descanso"
@@ -17,10 +22,25 @@
 "ini": "08:00",
 "fin": "16:00"
 },
+"cmonte|2025-12-06": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"cmonte|2025-12-07": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
 "cmonte|2025-12-08": {
 "tipo": "manana",
 "ini": "08:00",
 "fin": "16:00"
+},
+"cmonte|2025-12-09": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
 },
 "cmonte|2025-12-10": {
 "tipo": "manana",
@@ -96,8 +116,33 @@
 "ctorres|2025-12-02": {
 "tipo": "descanso"
 },
+"ctorres|2025-12-03": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
+},
+"ctorres|2025-12-04": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2025-12-05": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"ctorres|2025-12-06": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
 "ctorres|2025-12-07": {
 "tipo": "descanso"
+},
+"ctorres|2025-12-08": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
 },
 "ctorres|2025-12-09": {
 "tipo": "manana",
@@ -169,6 +214,11 @@
 "ctorres|2025-12-25": {
 "tipo": "descanso"
 },
+"maribel|2025-12-01": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
+},
 "maribel|2025-12-02": {
 "tipo": "descanso"
 },
@@ -202,6 +252,31 @@
 },
 "maribel|2025-12-09": {
 "tipo": "descanso"
+},
+"maribel|2025-12-10": {
+"tipo": "tarde",
+"ini": "13:00",
+"fin": "cierre"
+},
+"maribel|2025-12-11": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
+},
+"maribel|2025-12-12": {
+"tipo": "tarde",
+"ini": "15:00",
+"fin": "cierre"
+},
+"maribel|2025-12-13": {
+"tipo": "tarde",
+"ini": "15:00",
+"fin": "cierre"
+},
+"maribel|2025-12-14": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
 },
 "maribel|2025-12-15": {
 "tipo": "descanso"
@@ -264,6 +339,11 @@
 "ini": "08:00",
 "fin": "16:00"
 },
+"kelly|2025-12-06": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
 "kelly|2025-12-07": {
 "tipo": "descanso"
 },
@@ -274,6 +354,16 @@
 },
 "kelly|2025-12-09": {
 "tipo": "descanso"
+},
+"kelly|2025-12-10": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"kelly|2025-12-11": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
 },
 "kelly|2025-12-12": {
 "tipo": "manana",
@@ -354,6 +444,16 @@
 "ini": "09:00",
 "fin": "17:00"
 },
+"diego|2025-12-06": {
+"tipo": "manana",
+"ini": "14:00",
+"fin": "20:00"
+},
+"diego|2025-12-07": {
+"tipo": "manana",
+"ini": "12:00",
+"fin": "20:00"
+},
 "diego|2025-12-08": {
 "tipo": "descanso"
 },
@@ -364,6 +464,21 @@
 },
 "diego|2025-12-10": {
 "tipo": "descanso"
+},
+"diego|2025-12-11": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
+},
+"diego|2025-12-12": {
+"tipo": "tarde",
+"ini": "13:30",
+"fin": "cierre"
+},
+"diego|2025-12-13": {
+"tipo": "tarde",
+"ini": "17:00",
+"fin": "cierre"
 },
 "diego|2025-12-14": {
 "tipo": "manana",
@@ -459,6 +574,11 @@
 "ini": "07:00",
 "fin": "15:00"
 },
+"deisy|2025-12-11": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
+},
 "deisy|2025-12-12": {
 "tipo": "descanso"
 },
@@ -466,6 +586,11 @@
 "tipo": "manana",
 "ini": "08:00",
 "fin": "17:00"
+},
+"deisy|2025-12-14": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
 },
 "deisy|2025-12-15": {
 "tipo": "descanso"
@@ -617,6 +742,16 @@
 "nicolas|2025-12-01": {
 "tipo": "descanso"
 },
+"nicolas|2025-12-02": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"nicolas|2025-12-03": {
+"tipo": "tarde",
+"ini": "13:00",
+"fin": "cierre"
+},
 "nicolas|2025-12-04": {
 "tipo": "descanso"
 },
@@ -630,8 +765,18 @@
 "ini": "07:00",
 "fin": "15:00"
 },
+"nicolas|2025-12-07": {
+"tipo": "manana",
+"ini": "12:00",
+"fin": "20:00"
+},
 "nicolas|2025-12-08": {
 "tipo": "descanso"
+},
+"nicolas|2025-12-09": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
 },
 "nicolas|2025-12-10": {
 "tipo": "descanso"
@@ -640,6 +785,21 @@
 "tipo": "manana",
 "ini": "08:00",
 "fin": "16:00"
+},
+"nicolas|2025-12-12": {
+"tipo": "tarde",
+"ini": "15:00",
+"fin": "cierre"
+},
+"nicolas|2025-12-13": {
+"tipo": "tarde",
+"ini": "17:00",
+"fin": "cierre"
+},
+"nicolas|2025-12-14": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
 },
 "nicolas|2025-12-15": {
 "tipo": "descanso"
@@ -686,11 +846,36 @@
 "nicolas|2025-12-25": {
 "tipo": "descanso"
 },
+"shean|2025-12-01": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
 "shean|2025-12-02": {
 "tipo": "descanso"
 },
 "shean|2025-12-03": {
 "tipo": "descanso"
+},
+"shean|2025-12-04": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2025-12-05": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2025-12-06": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
+"shean|2025-12-07": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
 },
 "shean|2025-12-08": {
 "tipo": "descanso"
@@ -707,6 +892,21 @@
 "tipo": "manana",
 "ini": "07:00",
 "fin": "15:00"
+},
+"shean|2025-12-12": {
+"tipo": "tarde",
+"ini": "15:00",
+"fin": "cierre"
+},
+"shean|2025-12-13": {
+"tipo": "tarde",
+"ini": "17:00",
+"fin": "cierre"
+},
+"shean|2025-12-14": {
+"tipo": "tarde",
+"ini": "12:00",
+"fin": "cierre"
 },
 "shean|2025-12-15": {
 "tipo": "descanso"
@@ -776,6 +976,11 @@
 "nicolle|2025-12-07": {
 "tipo": "descanso"
 },
+"nicolle|2025-12-08": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
+},
 "nicolle|2025-12-09": {
 "tipo": "manana",
 "ini": "08:00",
@@ -788,6 +993,16 @@
 },
 "nicolle|2025-12-11": {
 "tipo": "descanso"
+},
+"nicolle|2025-12-12": {
+"tipo": "tarde",
+"ini": "15:00",
+"fin": "cierre"
+},
+"nicolle|2025-12-13": {
+"tipo": "tarde",
+"ini": "17:00",
+"fin": "cierre"
 },
 "nicolle|2025-12-14": {
 "tipo": "manana",
@@ -843,6 +1058,11 @@
 "tipo": "manana",
 "ini": "09:00",
 "fin": "17:00"
+},
+"santiago|2025-12-10": {
+"tipo": "tarde",
+"ini": "14:00",
+"fin": "cierre"
 },
 "cmonte|2025-12-26": {
 "tipo": "descanso"

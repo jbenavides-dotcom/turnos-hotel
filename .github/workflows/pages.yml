@@ -32,6 +32,12 @@ jobs:
           CLOUDBEDS_API_TOKEN: ${{ secrets.CLOUDBEDS_API_TOKEN }}
           CLOUDBEDS_PROPERTY_ID: "203345"
         run: python build_pages_ocupacion.py
+      - name: Generar plan de Lina desde su hoja (solo lectura)
+        env:
+          GOOGLE_SA_KEY_JSON: ${{ secrets.GOOGLE_SA_KEY_JSON }}
+        run: |
+          pip install --quiet google-auth google-api-python-client openpyxl
+          python build_parrilla_lina.py --sheet
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs
